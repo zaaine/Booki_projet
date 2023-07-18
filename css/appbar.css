@@ -1,0 +1,42 @@
+.appBar {
+    display: flex;
+    flex-direction: row;
+    padding: 1rem 0 1rem 3rem;
+    gap: 65%;
+  }
+  
+  .appBar__icon {
+    width: 11rem;
+    height: 5rem;
+  }
+  
+  .appBar__nav {
+    display: flex;
+    align-items: center;
+    padding-left: 2rem;
+    gap:3.75rem;
+  }
+
+  .appBar__navItem {
+    display: flex;
+    flex-direction: row;
+    align-content: end;
+    justify-content: flex-end;
+
+    font-family: var(--title-font);
+    font-style: normal;
+    font-weight: var(--title-font-weight);
+    font-size: var(--title-font-size);
+    line-height: var(--title-line-height);
+    color: var(--main-color);
+    text-decoration: none; 
+    margin-right: 1rem;
+    
+  }
+  .appBar__navItem:hover,
+  .appBar__navItem.active {
+    text-decoration: overline 4px var(--main-color);
+    /*il faudra ajouter un espace avec le texte au hover. */
+    /*A la création de la media queries faire un underline pour le hover*/
+   
+  }
