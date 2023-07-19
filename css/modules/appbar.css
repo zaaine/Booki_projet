@@ -1,13 +1,13 @@
 .appBar {
     display: flex;
     flex-direction: row;
-    padding: 1rem 0 1rem 3rem;
-    gap: 65%;
+    gap: 55%;
   }
   
   .appBar__icon {
-    width: 11rem;
-    height: 5rem;
+    width: 6rem;
+    height: 4.9rem;
+    margin-bottom: 20px;
   }
   
   .appBar__nav {
@@ -23,11 +23,11 @@
     align-content: end;
     justify-content: flex-end;
 
-    font-family: var(--title-font);
+    font-family: var(--body-highlight-font);
     font-style: normal;
-    font-weight: var(--title-font-weight);
-    font-size: var(--title-font-size);
-    line-height: var(--title-line-height);
+    font-weight: var(--body-highlight-font-weight);
+    font-size: var(--body-highlight-font-size);
+    line-height: var(--body-highlight-line-height);
     color: var(--main-color);
     text-decoration: none; 
     margin-right: 1rem;
