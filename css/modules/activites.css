@@ -1,0 +1,51 @@
+.container_activites{
+    font-family: var(--body-font);
+    font-style: normal;
+    font-weight: var(--body-font-weight);
+    font-size: var(--body-font-size);
+    line-height: var(--body-line-height);
+    color: var(--black-color);
+    text-decoration: none; 
+    padding-left: 0rem;
+    margin-bottom: 4rem;
+    margin-top: 4rem;
+    height: auto;
+    width: 1415px;
+    height: 591px;
+
+}
+
+.title_activité{
+font-size:x-large ;
+text-align: start;
+margin-bottom: Opx;
+margin-left: 66px;
+}
+
+.card-activités_position{
+    width: Auto;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 20px;
+    padding-left: 76px;
+}
+
+
+.card_activités{
+    width: 292px;
+    height: 438px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-bottom: 20px;
+}
+
+.img-activités{
+    width: 292px;
+    height: 371px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border-radius:  20px 20px 0 0;
+}

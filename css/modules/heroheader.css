@@ -13,15 +13,15 @@ margin-bottom: 2rem;
 }
 
 .hero__title{
-    font-size:x-large ;
+    font-size:26px ;
     text-align: start;
     margin-bottom: Opx;
 
 }
 
 .border_bar{
-   margin-top: 50px;
-   margin-bottom: 50px;
+   margin-top: 35px;
+   margin-bottom: 35px;
 }
 
 .search_bar-destop {
@@ -33,6 +33,7 @@ margin-bottom: 2rem;
     align-items: flex-start;
     justify-content: center;
     padding-left: 20px;
+    /* media queries différente pour tel */
    
   }
   
@@ -78,8 +79,6 @@ margin-bottom: 2rem;
 .filtre-selection{
     display: flex;
     flex-direction: row;
-
-    
 }
 
   .border_filtre{
@@ -88,6 +87,8 @@ margin-bottom: 2rem;
     gap: 16px;
     margin: 7,57px;
     text-decoration: bold;
+    border: 1px Red solid;
+    /* Les filtres doivent être clickable */
   }
 
   .Border-décor{
@@ -102,18 +103,21 @@ margin-bottom: 2rem;
     display: flex;
     flex-direction: row;
     align-content: center;
+    align-items: flex-start;
+    justify-content: flex-start;
+   
     
   }
 
   .info_size{
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding-top: 10px #D9D9D9;
-    padding right: 10px;
-    border: 1px solid ;
-    border-radius: 360px;
-    width: 40px;
-
+    flex-direction: column;
+    width: 34px;
+    height: 24px;
+    justify-content: flex-start;
+    padding-top: 10px;
+    
+    
   }
+
+ 
