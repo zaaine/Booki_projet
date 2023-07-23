@@ -5,7 +5,8 @@
 @import './modules/appbar.css';
 @import'./modules/heroheader.css';
 @import'./modules/bodyMain.css';
-
+@import'./modules/activites.css';
+@import'./modules/footer.css';
 
 
 /****** General ***********/
@@ -14,7 +15,7 @@
 }
 
 :root {
-    --main-color: #0065FC;
+    --main-color: black;
     --main-bg-color: #F2F2F2;
     --filter-bg-color: #DEEBFF;
 
@@ -28,7 +29,7 @@
   --body-highlight-font-weight: 700;/*TITRE CARDS*/
   --title-font-weight: 700;/*TITRE*/
   
-  --body-font-size: 1rem;
+  --body-font-size: 1.18rem;
   --body-highlight-font-size: 1rem;
   --title-font-size: 1.37rem;
   
@@ -52,7 +53,6 @@ body {
 .main-container {
     width: 100%;
     max-width: 1440px;
-    padding: 0 50px;
     box-sizing: border-box;
 }
 

@@ -1,0 +1,22 @@
+
+.footer_contenaire{
+
+    display: flex;
+    flex-direction: ;
+    width: 1440px;
+    justify-content: space-between;
+
+}
+
+
+
+
+.footer_column{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+width: 440px;
+height: 163px;
+
+
+}/* Styliser les liens pour ne pas avoir de soulignement et color black */
