@@ -50,25 +50,39 @@
     /*A la création de la media queries tel faire le hover avec border bottom*/
    
     @media (max-width: 768px) {
+
         .appBar {
-          padding-left: 0;
-          padding-right: 0;
-          justify-content: flex-start;
+          display: flex;
+          justify-content: center;
+          align-items: center;
           flex-direction: column;
+          
+           width: auto;
         }
       
         .appBar__icon {
-          width: 3rem;
-          height: 3rem;
-          align-items: center;
-          justify-content: flex-start;
+          
+          display: flex;
+          flex-direction: row;
+         align-items: center;
+         
         
         }
       
         .appBar__nav {
           padding-left: 1rem;
-          border: 1px solid green;
-          align-items: center;
-          width: 768px;
+         display: flex;
+        justify-content: center;
+          
+          width: 50%;
         }
+
+        .appBar__navItem:hover,
+        .appBar__navItem.active {
+          border-bottom: 4px solid blue;
+          border-top: none;
+          color: blue;
+
+       
+
       }

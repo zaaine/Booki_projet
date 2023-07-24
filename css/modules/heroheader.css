@@ -10,18 +10,25 @@ color: var(--black-color);
 text-decoration: none; 
 padding-left: 0rem;
 margin-bottom: 2rem;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+
 }
 
 .hero__title{
     font-size:26px ;
     text-align: start;
     margin-bottom: Opx;
+    
 
 }
 
 .border_bar{
    margin-top: 35px;
    margin-bottom: 35px;
+   
+   
 }
 
 .search_bar-destop {
@@ -75,10 +82,28 @@ margin-bottom: 2rem;
     padding-right: 10px;
   }
 
+.contenair_filtre{
+    display: flex;
+    flex-flow: wrap row;
+    
+}
+
 
 .filtre-selection{
     display: flex;
     flex-direction: row;
+    gap: 5px;
+    
+    
+}
+
+.lien_filtre{
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    gap: 5px;
+    
+    
 }
 
   .border_filtre{
@@ -87,8 +112,6 @@ margin-bottom: 2rem;
     gap: 16px;
     margin: 7,57px;
     text-decoration: bold;
-    border: 1px Red solid;
-    /* Les filtres doivent être clickable */
   }
 
   .Border-décor{
@@ -115,23 +138,25 @@ margin-bottom: 2rem;
     width: 34px;
     height: 24px;
     justify-content: flex-start;
+    flex-wrap: wrap;
     padding-top: 10px;
     
     
   }
 
   @media (max-width: 768px) {
-    .hero__titleContainer{
-        justify-content: flex-start;
-
-    }
   
-    .search_bar-icon{
-      width: 2rem;
-      height: 3rem;
+    .contenair_filtre{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        height: auto;
     }
-  
-    .border_filtre{
-      width: auto;
+    
+    .lien_filtre{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        
     }
   }
