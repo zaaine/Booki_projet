@@ -2,9 +2,10 @@
 .footer_contenaire{
 
     display: flex;
-    flex-direction: ;
+    flex-direction: row;
     width: 1440px;
     justify-content: space-between;
+   
 
 }
 
@@ -18,7 +19,15 @@ justify-content: space-between;
 width: 440px;
 height: 163px;
 
+
 }
+
+
+.lien_decor{
+    color: black;
+    text-decoration: none;
+}
+
 /* Styliser les liens pour ne pas avoir de soulignement et color black */
 @media (max-width: 768px) {
     .footer_contenaire {
