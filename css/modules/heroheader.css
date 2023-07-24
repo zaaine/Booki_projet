@@ -120,4 +120,18 @@ margin-bottom: 2rem;
     
   }
 
- 
+  @media (max-width: 768px) {
+    .hero__titleContainer{
+        justify-content: flex-start;
+
+    }
+  
+    .search_bar-icon{
+      width: 2rem;
+      height: 3rem;
+    }
+  
+    .border_filtre{
+      width: auto;
+    }
+  }

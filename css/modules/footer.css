@@ -18,5 +18,18 @@ justify-content: space-between;
 width: 440px;
 height: 163px;
 
-
-}/* Styliser les liens pour ne pas avoir de soulignement et color black */
+}
+/* Styliser les liens pour ne pas avoir de soulignement et color black */
+@media (max-width: 768px) {
+    .footer_contenaire {
+      display: contents;
+      flex-direction: column;
+      flex-wrap: wrap;
+      padding: 4.75rem 0 4.75rem 0;
+    }
+  
+    .footer_column {
+      margin-left: 1.25rem;
+      margin-right: 1.25rem;
+    }
+  }

@@ -12,7 +12,7 @@
     height: auto;
     width: 1415px;
     height: 591px;
-
+    display: flex;
 }
 
 .title_activité{
@@ -20,6 +20,9 @@ font-size:x-large ;
 text-align: start;
 margin-bottom: Opx;
 margin-left: 66px;
+display: flex;
+flex-wrap: wrap;
+border: 1xp solid red;
 }
 
 .card-activités_position{
@@ -49,3 +52,24 @@ margin-left: 66px;
     flex-wrap: wrap;
     border-radius:  20px 20px 0 0;
 }
+
+@media (max-width: 768px) {
+
+    .container_activites, .card_activités,
+    .card-activités_position,.title_activité,
+    .img-activités
+
+    {
+       
+           display: flex;
+           flex-direction: column;
+           flex-wrap: wrap;
+           width: 100%;
+           align-items: flex-start;
+           justify-content: flex-start;
+
+   
+       
+       }
+       
+       }

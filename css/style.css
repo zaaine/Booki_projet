@@ -188,6 +188,18 @@ body {
 }
 
 /* Small devices (phones, less than 768px) */
-@media (max-width: 767.98px) {
-    /* ... */
-}
+
+@media (max-width: 768px) {
+    :root {
+      /* Mobile Variables */
+      --body-font-size: 1rem;
+      --body-highlight-font-size: 1rem;
+      --header-font-size: 2.5rem;
+      --title-font-size: 1.25rem;
+  
+      --body-line-height: 1.25rem;
+      --body-highlight-line-height: 1.25rem;
+      --header-line-height: 3rem;
+      --title-line-height: 1.5rem;
+    }
+  }
