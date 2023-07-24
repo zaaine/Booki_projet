@@ -78,7 +78,7 @@ body {
     margin-bottom: 20px;
     align-items: flex-start;
     justify-content: center;
-    border: 1px solid blueviolet;
+    
 }
 
 .hebergements-and-populaires section {
@@ -200,3 +200,21 @@ border-radius: 20px 20px 0 0;
   /* Changer la couleur de l'icone car ne s'affiche pas */
 
 }
+
+@media (max-width: 768px) {
+
+  
+    .hebergements-and-populaires,
+    .hebergements-and-populaires section,
+    .populaires, .hebergements{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap; 
+     
+        align-items: flex-start;
+        width: 100%;
+    }
+    
+    
+
+    }

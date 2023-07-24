@@ -12,23 +12,30 @@
     height: auto;
     width: 1415px;
     height: 591px;
-
+    display: flex;
+    
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
 }
 
 .title_activité{
 font-size:x-large ;
-text-align: start;
-margin-bottom: Opx;
-margin-left: 66px;
+display: flex;
+flex-direction: row;
+flex-flow: row;
+padding-left: 50px;
 }
 
 .card-activités_position{
-    width: Auto;
+    
     display: flex;
     flex-direction: row;
     gap: 20px;
     margin-top: 20px;
-    padding-left: 76px;
+    margin-left: 30px;
+  
 }
 
 
@@ -39,6 +46,7 @@ margin-left: 66px;
     flex-direction: row;
     flex-wrap: wrap;
     padding-bottom: 20px;
+ 
 }
 
 .img-activités{
@@ -49,3 +57,21 @@ margin-left: 66px;
     flex-wrap: wrap;
     border-radius:  20px 20px 0 0;
 }
+
+@media (max-width: 768px) {
+
+    .container_activites, .card-activités_position, 
+    .card_activités, .img-activités, h3
+    {
+       
+           display: flex;
+           flex-direction: column;
+           flex-wrap: wrap;
+           align-items: flex-start;
+           justify-content: flex-start;
+
+   
+       
+       }
+       
+       }
