@@ -1,3 +1,4 @@
+
 .appBar__navItem {
     display: flex;
     flex-direction: row;
@@ -55,18 +56,16 @@
 
         .appBar {
           display: flex;
-          justify-content: center;
-          align-items: center;
           flex-direction: column;
           padding-top: 10%;
-           width: auto;
+          
         }
       
         .appBar__icon {
           
           display: flex;
           flex-direction: row;
-         align-items: center;
+         margin-left: 20%;
          object-fit: cover;
          
         
@@ -75,7 +74,8 @@
         .appBar__nav {
           padding-left: 1rem;
          display: flex;
-        justify-content: center;
+        margin-left: 15%;
+        margin-bottom: 10%;
           
           width: 50%;
         }
@@ -85,7 +85,5 @@
           border-bottom: 4px solid blue;
           border-top: none;
           color: blue;
-
-       
 
       }
