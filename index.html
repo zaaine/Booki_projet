@@ -14,9 +14,10 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 
+<!-- Nav Bar -->
 <body>
     <div class="main-container">
-        
+        <!-- changer la balise logo + revoir la div main-container si utile -->
         <header class="appBar">
             <img src="./images/logo/Booki.png" alt="Logo booki" class="appBar__icon">
             <nav class="appBar__nav">
@@ -24,7 +25,7 @@
               <a class="appBar__navItem" href="#">Activités</a>
             </nav>
           </header> 
-         
+         <!-- hero header -->
             <section class="hero">
                 <div class="hero__titleContainer">
                   <h1 class="hero__title">
@@ -41,6 +42,7 @@
                 <div class="search-click"> Rechercher</div>
                 </div>           
             </div>
+ <!-- revoir la bar search avec une balise bouton -->           
 <!-- Barre de rechercher pour GSM -->
 
 <div class=" search_bar-destop border_bar">
@@ -68,6 +70,8 @@
                     </div>
                 </div>
             </article>
+
+            <!-- Tenter de modifier les filtres avec <ul> et <li> car ne s'affiche pas correctemrnt'-->
  <!--Bar filtre doit être clickable-->
                 <div class="info-icon">
                  <div class="info_size"> <img src="./images/icons/info.png" alt="icon information"> </div>
@@ -77,13 +81,12 @@
 </section>
 
 
-
+<!-- Section Hébérgement à marseilles -->
         <main class="main-container" >
             <div class="hebergements-and-populaires">
-                <section class="hebergements"> <!-- Class pour inserer les cartes hebergement -->
+
+                <section class="hebergements"> 
                     <div> <H2 class="section-title">Hebergement à Marseilles</H2></div> <br>
-               
-                   
                     <div class="main_cards">
                         <article class="card_hebergement">
                             <img class="img_main-cards" src="./images/hebergements/fred-kleber.jpg" alt="Image de la chambre d'hôtel montrant un lit">
@@ -189,10 +192,8 @@
                                                     </div>
                                                  </article>
                                                
-                    </div>
-                                   
-                                                                    
-                </section>
+                                                </div>                                              
+                                             </section>
      
                 <section class="populaires">
                     <div class="populaires-title">
@@ -254,35 +255,31 @@
                     </div>
                 </section>
             </div>
-        </main>
+        <!-- Activité à Marseilles -->
             <section class="container_activites">
                 <h2 class="title_activité" > Activité à Marseilles</h2> <br>
                 <div class="card-activités_position" >
-               <article class="card_activités" >
-                            <img class="img-activités" src="./images/activites/reno-laithienne.jpg" alt="photo-vieux-port">
-                            <br> 
+                        <article class="card_activités" >
+                            <img class="img-activités" src="./images/activites/reno-laithienne.jpg" alt="photo-vieux-port">                    
                             <h3>Vieux-Port</h3>
-                </article>
+                        </article>
 
-                <article class="card_activités" >
-                    <img class="img-activités" src="./images/activites/paul-hermann.jpg" alt="photo Fort de Pomègues">
-                    <br> 
-                    <h3>Fort de Pomègues</h3>
-                </article>
+                        <article class="card_activités" >
+                             <img class="img-activités" src="./images/activites/paul-hermann.jpg" alt="photo Fort de Pomègues">
+                             <h3>Fort de Pomègues</h3>
+                        </article>
 
-                <article class="card_activités" >
-                    <img class="img-activités" src="./images/activites/kilyan-sockalingum.jpg" alt="photo Parc national des Calanques">
-                    <br> 
-                    <h3>Parc national des Calanques</h3>
-                </article>    
+                        <article class="card_activités" >
+                             <img class="img-activités" src="./images/activites/kilyan-sockalingum.jpg" alt="photo Parc national des Calanques">
+                             <h3>Parc national des Calanques</h3>
+                            </article>    
 
-                <article class="card_activités" >
-                    <img class="img-activités" src="./images/activites/florian-wehde.jpg" alt="photo Notre-Dame-de-la-Garde">
-                    <br> 
-                    <h3>Notre-Dame-de-la-Garde</h3>
-                </article></div>
+                        <article class="card_activités" >
+                            <img class="img-activités" src="./images/activites/florian-wehde.jpg" alt="photo Notre-Dame-de-la-Garde">
+                            <h3>Notre-Dame-de-la-Garde</h3>
+                        </article></div>
             </section>
-
+        </main>
 
         <footer>
             <article class="footer_contenaire">
