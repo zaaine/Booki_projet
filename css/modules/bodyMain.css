@@ -34,12 +34,7 @@ body {
     justify-content: center;
 }
 
-.main-container {
-    width: 100%;
-    max-width: 1440px;
-    box-sizing: border-box;
-  
-}
+
 
 .section-title {
     margin: 0;
@@ -156,8 +151,6 @@ object-fit: cover;
 .populaires-cards .card {
     display: flex;
     margin-top: 33px;
-    
-    
 }
 
 
