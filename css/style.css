@@ -38,6 +38,10 @@
   --title-line-height: 1.61rem;
 }
 
+.main-container{
+   
+    border: 1px solid red;
+}
 
 
 
@@ -94,4 +98,13 @@
       --header-line-height: 3rem;
       --title-line-height: 1.5rem;
     }
-  }
+  
+.main-container{
+    max-width: 768px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+
+}
