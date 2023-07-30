@@ -34,14 +34,16 @@ height: 163px;
       display: flex;
       flex-direction: column;
       flex-wrap: wrap;
-      
       width: 768px;
-      
+      background-color: aqua;
+      height: 40%;
     }
   
     .footer_column {
-      display: inline-flex;
+      display: flex;
       flex-direction: column;
       flex-wrap: wrap;
+      width: 768px;
+     
     }
   }

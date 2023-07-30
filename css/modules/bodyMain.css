@@ -224,9 +224,12 @@ object-fit: cover;
     .hebergements-and-populaires section{
         display: flex;
         flex-wrap: wrap;
-        flex-direction: column;
-        justify-content: flex-start;
+        flex-direction: row;
+        justify-content: center;
         width: 90%;
+        height: auto;
+        gap: 10%;
+        margin: 5%;
     }
 
     .hebergements {
@@ -264,33 +267,23 @@ h2{
     height: auto;
     width: max-content;
     padding-left: 5%;
+    gap: 2%;
+    padding-bottom: 10%;
 }
-
-.card_hebergement {
+.card_hebergement{
+    display: flex;
+    
     display: flex;
     width: 45%;
     
 }
-
+.populaires-cards{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
  
 
-  .container_activites, .title-activité{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: flex-start;
-    width: 768px;
-    height: max-content;
-
-  }
-  .activité_gsm{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: max-content;
-    justify-content: flex-start;
-    align-items: flex-start;
-  }
 
     }
     
