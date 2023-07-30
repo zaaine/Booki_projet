@@ -61,18 +61,40 @@ padding-left: 50px;
 
 @media (max-width: 768px) {
 
-    .container_activites, .card-activités_position, 
-    .card_activités, .img-activités, h3
-    {
+       .title_activité{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 768px;
        
-           display: flex;
-           flex-direction: column;
-           flex-wrap: wrap;
-           align-items: flex-start;
-           justify-content: flex-start;
-
-   
-       
-       }
-       
+    }
+      .container_activites {
+        display: flex;
+        height: max-content;
+        width: 768px;
+      }
+      
+      
+      
+      .card-activités_position {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 768px;
+        height:fit-content ;
+        justify-content: center;
+        align-items: center;
+        
+        
+      }
+    
+      .card_activités{
+        background-color: #DEEBFF;
+      }
+    
+      .img-activités{
+        height: 90%;
+      }
+    
        }
