@@ -41,7 +41,13 @@
 .main-container{
    
     border: 1px solid red;
+    max-width: 1440px;
+    min-width: 320px;
+    width: 98%;
+    margin: 5%;
 }
+
+
 
 
 
@@ -108,3 +114,6 @@
 
 
 }
+
+
+
