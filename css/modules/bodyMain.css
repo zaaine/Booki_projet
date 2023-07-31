@@ -1,7 +1,7 @@
 :root {
     --main-color: #0065FC;
-    --main-bg-color: #F2F2F2;
-    --filter-bg-color: #DEEBFF;
+    --main-bg-color: #DEEBFF;
+    --filter-bg-color: #F2F2F2;
 
   /* Text configuration */
   --body-font: 'Raleway';
@@ -69,7 +69,7 @@
     margin-bottom: 20px;
     align-items: flex-start;
     justify-content: center;
-    background-color: green;
+    background-color: #F2F2F2;
     gap: 10px
    
     
@@ -78,7 +78,7 @@
 .hebergements-and-populaires section {
     display:flex;
     flex-wrap: wrap;
-    background-color: yellow;
+    background-color: #F2F2F2;
     border-radius: 20px;
     height: 611px;
     box-sizing: border-box;
@@ -108,6 +108,10 @@
   
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
 
 .card_hebergement {
     display: flex;
@@ -271,8 +275,7 @@ h2{
     padding-bottom: 10%;
 }
 .card_hebergement{
-    display: flex;
-    
+    display: flex; 
     display: flex;
     width: 45%;
     
