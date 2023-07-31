@@ -29,7 +29,7 @@ height: 163px;
 }
 
 /* Styliser les liens pour ne pas avoir de soulignement et color black */
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
     .footer_contenaire {
       display: flex;
       flex-direction: column;
