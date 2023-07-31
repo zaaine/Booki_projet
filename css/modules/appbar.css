@@ -4,7 +4,6 @@
     flex-direction: row;
     align-content: end;
     justify-content: flex-end;
-
     font-family: var(--body-highlight-font);
     font-style: normal;
     font-weight: var(--body-highlight-font-weight);
@@ -16,6 +15,7 @@
     height: 79px;
     align-content: center;
     align-items: center;
+    width: 98%;
 
     
   }
@@ -24,7 +24,6 @@
     display: flex;
     justify-content: space-between;
     flex-direction: row;
-    width: 1440px;
     height: 79px;
   }
   
@@ -38,7 +37,9 @@
   .appBar__nav {
     display: flex;
     align-items: center;
+    justify-content: center;
     padding-left: 2rem;
+    padding: 25px;
     gap:3.75rem;
     
   }
@@ -50,35 +51,32 @@
     color: blue;
 
   } 
-    /*A la création de la media queries tel faire le hover avec border bottom*/
    
-    @media (max-width: 768px) {
+  @media only screen and (min-device-width : 768px) and (max-device-width : 1024px){
+
+    .appBar{  
+        width: 98%;
+    }
+  }
+   
+    @media screen and (max-width: 768px)and (max-device-width : 1024px) {
 
         .appBar {
           display: flex;
           flex-direction: column;
-          padding-top: 10%;
-          
+          justify-content: center;
+          align-items: center;
+          margin-top: 10%;
+          width: 98%;
         }
       
         .appBar__icon {
-          
-          display: flex;
-          flex-direction: row;
-         margin-left: 20%;
-         object-fit: cover;
-         
-        
+            width: 15%;
+            height: 40%;
+            margin-bottom: 2%;
+            margin-top: 2%; 
         }
       
-        .appBar__nav {
-          padding-left: 1rem;
-         display: flex;
-        margin-left: 15%;
-        margin-bottom: 10%;
-          
-          width: 50%;
-        }
 
         .appBar__navItem:hover,
         .appBar__navItem.active {
@@ -87,3 +85,29 @@
           color: blue;
 
       }
+      
+      media screen and (min-width: 320px) (min-widht:700px) {
+        .appBar {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 10%;
+            width: 98%;
+          }
+        
+          .appBar__icon {
+              width: 15%;
+              height: 40%;
+              margin-bottom: 2%;
+              margin-top: 2%; 
+          }
+        
+  
+          .appBar__navItem:hover,
+          .appBar__navItem.active {
+            border-bottom: 4px solid blue;
+            border-top: none;
+            color: blue;
+  
+      } }
