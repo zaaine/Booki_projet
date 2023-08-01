@@ -39,8 +39,7 @@
 }
 
 .main-container{
-   
-    border: 1px solid red;
+    max-height: max-content;
     max-width: 1440px;
     min-width: 320px;
     width: 98%;
