@@ -144,6 +144,10 @@ width: 98%;
     
   }
 
+  .button-search_gsm{
+    display: none;
+}
+
   @media screen and (max-width: 768px)and (max-device-width : 1024px){
 
     .hero{
@@ -162,7 +166,7 @@ width: 98%;
     .border_filtre, .Border-décor, .filtre-selection {
         display: flex;
         flex-direction: row;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         flex-basis: content;
         width: 4O%;
     }
@@ -172,10 +176,54 @@ width: 98%;
         flex-direction: row;
         width: 50%;      
     }  
+    .button-search_gsm{
+        display: none;
+    }
   }
 
   @media screen and (max-width: 390px) {
 
+    .hero__title {
+        font-size: larger;
+        flex-wrap: wrap;
+        display: flex;
+        margin-top: 5%;
+    }
+    .search_bar-icon {
+        height: 2.31rem;
+        width: 2rem;
+        display: flex;
+        background-color: #D9D9D9;
+        justify-content: center;
+        align-items: center;
+        border-radius: 15px 0 0 15px;
+    }
+
+    .search-click {
+       display: none;
+    }
+
+    .button-search_gsm{
+        display: flex;
+        width: 2.31rem;
+        border-radius: 0 5px 0px 5px;
+        flex-direction: row-reverse;
+        flex-wrap: nowrap;
+        align-content: flex-start;
+        justify-content: center;
+        align-items: stretch;
+    }
+
+    .text-area {
+        font-weight: bold;
+        height: 2.31rem;
+        width: 133px;
+        display: flex;
+        justify-items: center;
+        border: none;
+        color: black;
+    }
+
     .border_filtre, .Border-décor, .filtre-selection{
         display: flex;
         flex-wrap: wrap;
@@ -187,16 +235,26 @@ width: 98%;
     }
     }
 
-/* faire la modification bouton search bar */
+
     
-media screen and (min-width: 320px) (min-widht:700px) {
+@media screen and (min-width: 320px) and (min-widht:700px) {
 
-    .border_filtre, .Border-décor, .filtre-selection{
-        display: flex;
-        flex-wrap: wrap;
-        width: fit-content;
-        flex-wrap: wrap;
-        width: 86%;
-        align-items: flex-start;
-        justify-content: left;
+
+
+.tittle_filtre{
+    display: flex;
+        font-size: x-large;
+        width: 50%;
+      
+    
+}
+
+.filtre-selection {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+
+ }
 }
