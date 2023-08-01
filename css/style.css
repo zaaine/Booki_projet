@@ -55,6 +55,89 @@
 
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
+
+@media screen and (max-width: 320px){
+
+    .hebergements-and-populaires {
+        flex-direction: column-reverse !important;
+        display: flex;
+        flex-wrap: nowrap;
+    }
+
+    .hebergements-and-populaires section {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: flex-start;
+        height: auto;
+    }
+
+    .hebergements {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 40%;
+        height: max-content;
+    }
+
+    .main_cards {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-items: center;
+        align-items: flex-start;
+        align-content: center;
+        width: 98%;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+
+    .card_hebergement {
+        display: flex;
+        width: 94%;
+    }
+    .populaires{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column !important;
+        width: 30%;
+        height: max-content;
+      }
+
+    .populaires-title {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: flex-end;
+        justify-content: space-between;
+        align-items: center;
+    }
+   
+    .populaires-cards {
+        display: flex;
+        flex-direction: column !important;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        align-content: space-around;
+        align-items: flex-start;
+        width: 98%;
+/* ne s'affiche pas en colonne  */
+    }
+ 
+    .card {
+        width: 95% !important;
+        flex-direction: row !important ;
+        /* Ne prend pas sa valeurs */
+    }
+
+    .populaires-cards .card{
+        flex-direction: column;
+        width: 95%;
+    }
+
+}
+
+
+
 @media (max-width: 1024px) {
     .hebergements-and-populaires {
         flex-direction: column;
@@ -86,7 +169,16 @@
     .populaires-cards .card-subtitle {
         font-size: 13px;
     }
+    .populaires-title{
+        flex: 1 1 100%;
+    }
 }
+
+@media screen and (max-width: 1200px) {
+    main {
+      width: 95%;
+    }
+  }
 
 /* Small devices (phones, less than 768px) */
 
@@ -114,9 +206,26 @@
 
 }
 
-@media screen and (max-width: 1200px) {
-    main {
-      width: 95%;
-    }
-  }
 
+
+  @media screen and (max-width: 320px) {
+    .footer_contenaire {
+      display: flex;
+      flex-direction: column !important;
+      align-content: flex-start;
+      flex-wrap: wrap;
+      width: 98%;
+      background-color: #F2F2F2;
+      height: inherit !important;
+    }
+  
+    .footer_column {
+      display: flex;
+      flex-direction: column !important;
+      align-content: flex-start;
+      flex-wrap: wrap;
+      width: 98%;
+      height: inherit !important;
+    
+     
+    }

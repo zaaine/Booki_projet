@@ -270,7 +270,7 @@ object-fit: cover;
         height: max-content;
       }
 
-h2{
+    h2{
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
@@ -309,7 +309,7 @@ a{
 }
 
 .populaires-title{
-    display: contents;
+    display: 1 1 100%;
 }
 
 .card{
@@ -322,67 +322,6 @@ a{
     }
     
     
-    @media screen and (max-width: 320px){
-
-        .hebergements-and-populaires section {
-            display: flex;
-            flex-wrap: wrap;
-            flex-direction: column;
-            justify-content: flex-start;
-            height: auto;
-        }
-
-        .hebergements {
-            display: flex;
-            flex-wrap: wrap;
-            flex-direction: column;
-            width: 40%;
-            height: max-content;
-        }
-
-        .main_cards {
-            display: flex;
-            flex-wrap: nowrap;
-            justify-items: center;
-            align-items: flex-start;
-            align-content: center;
-            width: 98%;
-            justify-content: flex-start;
-            flex-direction: column;
-        }
-
-
-
-        .card_hebergement {
-            display: flex;
-            width: 94%;
-        }
-
-       
-        .populaires-cards {
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            flex-wrap: nowrap;
-            align-content: space-around;
-            align-items: flex-start;
-/* ne s'affiche pas en colonne  */
-        }
-     
-
-        .populaires-title {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: nowrap;
-            align-content: flex-end;
-            justify-content: space-between;
-            align-items: center;
-        }
-
-        .card {
-            width: 95%;
-            /* Ne prend pas sa valeurs */
-        }
-
-    }
     
+    
+

@@ -180,6 +180,7 @@ padding-left: 50px;
             justify-content: flex-start;
             align-items: flex-start;
             flex-wrap: wrap;
+            height: inherit !important;
         }
         .card_activités {
             width: 190px;
