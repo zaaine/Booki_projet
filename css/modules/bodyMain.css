@@ -294,7 +294,7 @@ object-fit: cover;
 .card_hebergement{
     display: flex; 
     display: flex;
-    width: 45%;
+    width: 30%;
     
 }
 .populaires-cards{
