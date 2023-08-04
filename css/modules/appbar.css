@@ -1,28 +1,23 @@
 
 .appBar__navItem {
     display: flex;
+    flex-wrap: nowrap;
     flex-direction: row;
-    align-content: end;
-    justify-content: flex-end;
-    font-family: var(--body-highlight-font);
-    font-style: normal;
-    font-weight: var(--body-highlight-font-weight);
-    font-size: var(--body-highlight-font-size);
-    line-height: var(--body-highlight-line-height);
-    color: var(--main-color);
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
     text-decoration: none; 
     margin-right: 1rem;
     height: 79px;
-    align-content: center;
-    align-items: center;
     width: 98%;
-
     
-  }
+}
+  
 
 .appBar {
     display: flex;
     justify-content: space-between;
+    align-items: flex-end;
     flex-direction: row;
     height: 79px;
   }
@@ -62,19 +57,14 @@
     @media screen and (max-width: 768px)and (max-device-width : 1024px) {
 
         .appBar {
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
           margin-top: 10%;
           width: 98%;
         }
       
         .appBar__icon {
-            width: 15%;
-            height: 40%;
-            margin-bottom: 2%;
-            margin-top: 2%; 
+            width: 4rem;
+            height: 2.9rem;
+            margin-bottom: 37px;
         }
       
 
@@ -86,28 +76,4 @@
 
       }
       
-      media screen and (min-width: 320px) (min-widht:700px) {
-        .appBar {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            margin-top: 10%;
-            width: 98%;
-          }
-        
-          .appBar__icon {
-              width: 15%;
-              height: 40%;
-              margin-bottom: 2%;
-              margin-top: 2%; 
-          }
-        
-  
-          .appBar__navItem:hover,
-          .appBar__navItem.active {
-            border-bottom: 4px solid blue;
-            border-top: none;
-            color: blue;
-  
-      } }
+ }
