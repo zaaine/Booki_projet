@@ -154,7 +154,7 @@ object-fit: cover;
 /****** Populaires ***********/
 .populaires {
     width: 35%;
-    margin-bottom: 10%;
+    padding-bottom: 6%;
  
 }
 
@@ -162,6 +162,11 @@ object-fit: cover;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.card{
+    width: 98% !important;
+    margin-bottom: 4%
 }
 
 .populaires-cards .card {
@@ -223,105 +228,91 @@ object-fit: cover;
 }
 
 @media screen and (max-width: 768px) {
-    .main{
-        display: flex;
-        width: 98%;
-        flex-wrap: wrap;
-    }
+   
 
     .main_container{
     width: 768px;
-    flex-basis: max-content;
-    align-items: flex-start;
-    height: max-content;
     }
 
-    .hebergements-and-populaires
-   {
-    display: flex;
-    flex-wrap: wrap;
-    height: auto;
-    width: 98%;
-    margin-bottom: 20px;
-   
+    .hebergements-and-populaires{
+    flex-direction: column !important;
+ 
     }
 
-    .hebergements-and-populaires section{
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: row;
-        justify-content: center;
-        height: auto;
-    
-    }
+ 
 
     .hebergements {
         display: flex;
         flex-wrap: wrap;
         flex-direction: row;
-        width: 40%;
-        height: max-content;
+        width: 100% !important;
+        
     }
     .populaires{
         display: flex;
         flex-wrap: wrap;
-        flex-direction: row;
-        width: 30%;
-        height: max-content;
+        flex-direction: column;
+        width: 100% !important;
+        margin-bottom: 0px;
+        
       }
-
-    h2{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-}
-
-
-.main_cards{
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-items: center;
-    align-items: flex-start;
-    align-content: flex-start;
-    height: auto;
-    width: max-content;
-    padding-bottom: 10%;
-}
-.card_hebergement{
-    display: flex; 
-    display: flex;
-    width: 30%;
     
-}
-.populaires-cards{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}
- 
-a{
-    display: contents;
-    width: 50%;
-}
-
-.populaires-title{
-    display: 1 1 100%;
-}
-
-.card{
-    padding: 0;
-    width: 33%;
-    gap: 2%;
-    margin-left: 2%;
-}
+    .populaires-cards{
+        display: flex;
+        flex-direction: row !important;
+    }  
+   
 
     }
     
+    /* Surplus à supprimer */
+    
+    h2{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
     
     
+    .main_cards{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-items: center;
+        align-items: flex-start;
+        align-content: flex-start;
+        height: auto;
+        width: max-content;
+        padding-bottom: 10%;
+    }
+    .card_hebergement{
+        display: flex; 
+        display: flex;
+        width: 30%;
+        
+    }
+    .populaires-cards{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+     
+    a{
+        display: contents;
+        width: 50%;
+    }
     
+    .populaires-title{
+        display: 1 1 100%;
+    }
+    
+    .card{
+        padding: 0;
+        width: 33%;
+        gap: 2%;
+        margin-left: 2%;
+    }
 
