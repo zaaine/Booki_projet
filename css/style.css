@@ -87,7 +87,7 @@
 
     .card_hebergement {
         display: flex;
-        width: 94%;
+        width: 100% !important;
     }
     .populaires{
         display: flex;
@@ -118,14 +118,14 @@
     }
  
     .card {
-        width: 95% !important;
+        width: 100% !important;
         flex-direction: row !important ;
         /* Ne prend pas sa valeurs */
     }
 
     .populaires-cards .card{
         flex-direction: column;
-        width: 95%;
+        width: 100%;
     }
 
 }
@@ -134,50 +134,47 @@
 
 @media (max-width: 1024px) {
     .hebergements-and-populaires {
-        flex-direction: column;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        flex-wrap: nowrap;
     }
 
     .hebergements {
-        width: 100%;
+        width: 70%;
+    }
+
+    .card_hebergement{
+        width: 199px;
     }
 
     .populaires {
-        width: 100%;
-        margin-top: 50px;
-    }
-
-    .populaires-cards {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-    }
-
-    .populaires-cards .card {
         width: 30%;
+        
     }
 
-    .populaires-cards .card-title {
-        font-size: 14px;
+    .cards {
+        width: 98%;
     }
+
 
     .populaires-cards .card-subtitle {
         font-size: 13px;
     }
+  
     .populaires-title{
         flex: 1 1 100%;
     }
+  
     .more_info{
         display: flex;
         width: 1024px !important;
         margin-left: 4%;
     }
+
 }
 
-@media screen and (max-width: 1200px) {
-    main {
-      width: 95%;
-    }
-  }
+
 
 /* Small devices (phones, less than 768px) */
 
@@ -204,7 +201,111 @@
 
 
 }
+@media screen and (max-width: 320px) {
+    .appBar {
+        display: flex;
+        justify-content: center;
+        flex-direction: column !important;
+        align-items: center;
+        height: 10% !important;
+        margin-top: 10%;
+        width: 98%;
+        flex-wrap: inherit;
+        height: fit-content;
+        
+      }
+    
+      .appBar__icon {
+        display: flex;
+        align-items: center;
+        height: 2.9rem;
+        
+      }
 
+      .appBar__nav{    
+        display: flex !important;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: center;
+        padding:0px !important;
+        gap: 0;
+
+        }
+    
+
+      .appBar__navItem:hover,
+      .appBar__navItem.active {
+        border-bottom: 4px solid blue;
+        border-top: none;
+        color: blue;
+
+  }  }
+
+  @media screen and (max-width: 320px) {
+
+    .hero__title {
+        font-size: larger;
+        flex-wrap: wrap;
+        display: flex;
+        margin-top: 5%;
+    }
+    .search_bar-icon {
+        height: 3.31rem;
+        width: 2rem;
+        display: flex;
+       
+    }
+
+    .search-bar_desktop{
+        width: 90%;
+        height: 63%;
+        font-size: 19px;
+    }
+
+    .search-click {
+       display: none;
+    }
+
+    .button-search_gsm{
+        display: flex;
+        width: 0px;
+        height: 0;
+        color: transparent;
+    }
+
+    .text-area {
+        height: 3.31rem;
+        width: 186px;
+    }
+
+    .border_filtre, .Border-décor {
+        display: flex;
+        flex-wrap: wrap;
+        width: fit-content !important;
+        width: auto !important;
+       
+    }
+    .contenair_filtre{
+        display: flex !important;
+        padding-bottom: 5%;
+    }
+
+.tittle_filtre{
+    display: flex;
+        font-size: x-large;
+        width: 55% !important;
+      
+    
+}
+
+.filtre-selection {
+    display: flex !important;
+    flex-direction: column;
+    flex-wrap: wrap;
+ } 
+
+
+}
 
 
   @media screen and (max-width: 320px) {
@@ -213,7 +314,7 @@
       flex-direction: column !important;
       align-content: flex-start;
       flex-wrap: wrap;
-      width: 98%;
+      width: 100%;
       background-color: #F2F2F2;
       height: inherit !important;
     }
@@ -223,7 +324,7 @@
       flex-direction: column !important;
       align-content: flex-start;
       flex-wrap: wrap;
-      width: 98%;
+      width: 100%;
       height: inherit !important;
     
      

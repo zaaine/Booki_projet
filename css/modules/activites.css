@@ -39,7 +39,7 @@ padding-left: 50px;
     
     display: flex;
     flex-direction: row;
-    gap: 20px;
+    gap: 50px;
     margin-top: 20px;
     margin-left: 30px;
   
@@ -174,7 +174,7 @@ padding-left: 50px;
 
 
         .container_activites {
-            width: 105%;
+            width: 98%;
             display: flex;
             flex-direction: row;
             justify-content: flex-start;
@@ -183,14 +183,14 @@ padding-left: 50px;
             height: inherit !important;
         }
         .card_activités {
-            width: 190px;
+            width: 290px;
             height: 260px;
             display: flex;
             flex-direction: column;
             flex-wrap: nowrap;
         }
         .img-activités {
-            width: 325px;
+            width: 290px;
             height: 200px;
             display: flex;
             flex-direction: row;
