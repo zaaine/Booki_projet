@@ -151,6 +151,11 @@ object-fit: cover;
     
 }
 
+.more_info{
+    display: flex;
+    width: 100%;
+}
+
 /****** Populaires ***********/
 .populaires {
     width: 35%;
