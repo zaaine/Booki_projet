@@ -132,8 +132,8 @@
 .icon_position {
     color: #000000;
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-around !important;
+    align-items: center !important;
 }
 
 .info_size {
