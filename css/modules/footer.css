@@ -6,8 +6,6 @@
     flex-wrap: nowrap;
     background-color: #F2F2F2;
     width: 96%;
-    height: 16%;
-    
     
 }
 
@@ -42,19 +40,37 @@
 
   @media screen and (max-width: 1024px){
 
-    .footer_column {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 440px;
-    height: inherit;
-    flex-wrap: wrap;
-    align-content: space-around;
-    align-items: stretch;
-    padding-top: 10%;
+    .footer_contenaire{
+        height: 16%;
     }
 
-
-
-  }
+    .footer_column {
+        width: 440px;
+        height: inherit;
+      
+        }
+    
+      }
   
+
+  @media screen and (max-width: 320px) {
+    .footer_contenaire {
+      
+      flex-direction: column !important;
+      align-content: flex-start;
+      flex-wrap: wrap;
+      width: 98%;
+      background-color: #F2F2F2;
+      height: inherit !important;
+      margin-left: 8%;
+    }
+  
+    .footer_column {
+      align-content: flex-start;
+      flex-wrap: wrap;
+      width: 100%;
+      height: inherit !important;
+    
+     
+    } 
+ }
