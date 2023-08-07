@@ -209,6 +209,7 @@ a {
     }
 
     .populaires {
+        flex-direction: row;
         width: 30%;
 
     }
