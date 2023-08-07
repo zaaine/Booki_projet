@@ -1,5 +1,4 @@
-
-  @import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Manrope&family=Montserrat:wght@400;600&family=Raleway:ital,wght@0,100;0,200;0,400;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Manrope&family=Montserrat:wght@400;600&family=Raleway:ital,wght@0,100;0,200;0,400;1,400;1,500&display=swap');
 
 /*Module*/
 @import './modules/appbar.css';
@@ -19,40 +18,33 @@
     --main-bg-color: #F2F2F2;
     --filter-bg-color: #DEEBFF;
 
-  /* Text configuration */
-  --body-font: 'Raleway';
-  --body-highlight-font: 'Raleway';
-  --title-font: 'Raleway';
-  
-  
-  --body-font-weight: 400; /*INFORMATION*/
-  --body-highlight-font-weight: 700;/*TITRE CARDS*/
-  --title-font-weight: 700;/*TITRE*/
-  
-  --body-font-size: 1.18rem;
-  --body-highlight-font-size: 1rem;
-  --title-font-size: 1.37rem;
-  
-  --body-line-height: 1.2rem;
-  --body-highlight-line-height: 1.17rem;
-  --title-line-height: 1.61rem;
+    /* Text configuration */
+    --body-font: 'Raleway';
+    --body-highlight-font: 'Raleway';
+    --title-font: 'Raleway';
+
+
+    --body-font-weight: 400;
+    /*INFORMATION*/
+    --body-highlight-font-weight: 700;
+    /*TITRE CARDS*/
+    --title-font-weight: 700;
+    /*TITRE*/
+
+    --body-font-size: 1.18rem;
+    --body-highlight-font-size: 1rem;
+    --title-font-size: 1.37rem;
+
+    --body-line-height: 1.2rem;
+    --body-highlight-line-height: 1.17rem;
+    --title-line-height: 1.61rem;
 }
 
-.main-container{
+.main-container {
     max-height: max-content;
     max-width: 1440px;
     min-width: 320px;
-    width: 98%;
-    margin: 5%;
+    width: 94%;
+    margin-top: 5%;
+    margin-left: 2%;
 }
-
-
-
-
-
-
-
-
-
-
-
