@@ -3,22 +3,23 @@
 .footer_contenaire {
     display: flex;
     flex-direction: row;
-    max-width: 1440px;
-    justify-content: space-around;
-    background-color: #F2F2F2;
-    width: 100%;
     flex-wrap: nowrap;
-    padding-left: 2%;
-    align-items: flex-start;
+    background-color: #F2F2F2;
+    width: 96%;
+    height: 16%;
+    
+    
 }
 
 
 .footer_column{
-display: flex;
-flex-direction: column;
-justify-content: space-evenly;
-width: 440px;
-height: 163px;
+    display: flex;
+    flex-direction: column;
+    width: 440px;
+    height: 100%;
+    align-content: center;
+    align-items: flex-start;
+    padding-left: 3%;
 
 
 }
@@ -57,5 +58,3 @@ height: 163px;
 
   }
   
-
-   

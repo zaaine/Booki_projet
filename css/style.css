@@ -48,8 +48,6 @@
 
 
 
-
-
 @media screen and (max-width: 320px){
 
     .hebergements-and-populaires {
@@ -168,7 +166,7 @@
   
     .more_info{
         display: flex;
-        width: 1024px !important;
+       
         margin-left: 4%;
     }
 
@@ -271,6 +269,7 @@
         width: 0px;
         height: 0;
         color: transparent;
+        justify-content: space-evenly;
     }
 
     .text-area {
@@ -328,4 +327,5 @@
       height: inherit !important;
     
      
-    }
+    } 
+ }

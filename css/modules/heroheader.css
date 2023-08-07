@@ -18,7 +18,7 @@ width: 98%;
 .border_bar{
    margin-top: 35px;
    margin-bottom: 35px;
-   padding-left: 12%;
+   
    
    
 }
@@ -39,7 +39,6 @@ width: 98%;
   .search_bar-icon {
     height: 3.31rem;
     width: 2rem;
-    
     display: flex;
     background-color: #D9D9D9;
     justify-content: center;
@@ -48,7 +47,6 @@ width: 98%;
   }
   
   .text-area {
-    
     font-weight: bold;
     height: 3.31rem;
     width: 210px;
@@ -95,20 +93,17 @@ width: 98%;
     color: black;
     padding: 10px;
     margin: 10px;
-    gap: 5px;
-    
-    
+    gap: 5px;    
 }
-
-
-
 
 
   .border_filtre{
     display: flex;
-    flex-direction: row;
     align-items: start;
     gap: 16px;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
     
   }
 
@@ -160,7 +155,6 @@ width: 98%;
         flex-wrap: wrap;
         flex-direction: row;
         margin-top: 5%;
-        padding-left: 5%;
         align-items: self-start;
     }
 
