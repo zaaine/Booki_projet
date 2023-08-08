@@ -14,13 +14,14 @@
     flex-direction: column;
     width: 440px;
     height: 100%;
-    align-content: center;
-    align-items: flex-start;
-    padding-left: 3%;
-
-
 }
 
+
+.footer_text{
+    display: flex;
+    align-items: center;
+
+}
 
 .lien_decor {
     color: black;
