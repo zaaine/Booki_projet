@@ -199,6 +199,7 @@ a {
         flex-direction: row;
         width: 100%;
         flex-wrap: nowrap;
+        align-items: flex-start;
     }
 
     .hebergements {
@@ -206,7 +207,7 @@ a {
     }
 
     .card_hebergement {
-        width: 199px;
+        width: 189px;
     }
 
     .populaires {

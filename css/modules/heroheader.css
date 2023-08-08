@@ -42,7 +42,8 @@
     border-radius: 15px 0 0 15px;
 }
 
-.fa-solid, .fas {
+.fa-solid,
+.fas {
     color: var(--main-color);
     display: flex;
 }
@@ -95,9 +96,10 @@
     gap: 5px;
 }
 
-.tittle_filtre{
-    font:menu;
+.tittle_filtre {
+    font: menu;
     padding-left: 15%;
+    font-size: x-large;
 }
 
 
@@ -169,7 +171,6 @@
     .border_filtre,
     .Border-décor,
     .filtre-selection {
-
         flex-basis: content;
         width: 4O%;
     }
@@ -183,7 +184,7 @@
         display: none;
     }
 
-}
+    }
 
 @media screen and (max-width: 320px) {
 
