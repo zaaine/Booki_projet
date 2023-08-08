@@ -155,6 +155,7 @@ a {
 
 .fa-solid {
     color: var(--main-color);
+    display: flex;
 }
 
 
@@ -229,8 +230,8 @@ a {
 
     .more_info {
         display: flex;
-
-        margin-left: 4%;
+        flex:auto;
+        
     }
 
     .main_cards {

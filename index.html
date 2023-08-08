@@ -43,8 +43,8 @@
                     <!-- afficher uniquement sur gsm -->
                     <div class=" search_bar-destop border_bar">
                         <div class="search_bar-destop">
-                            <div class="search_bar-icon">
-                                <i class="fa-solid fa-location-dot search_bar-icon icon_position" style="color: #000000;"></i>
+                            <div class="search_bar-icon ">
+                                <i class="fa-solid fa-location-dot search_bar-icon" style="color: #000000; display: flex;"></i>
                             </div>
                             <div class="">
                                 <input class="text-area" type="search" value="Marseille,France" />
@@ -61,15 +61,15 @@
                 <div class="contenair_filtre">
                     <div class="Filtres-selection">
                         <div class=" border_filtre">
-                            <ul class="tittle_filtre"> Filtres </ul>
-                            <li class="lien_filtre border_filtre Border-décor" href="#"> <i
-                                    class="fa-solid fa-money-bill-wave" style="color: #0065fc;"></i> Économique</li>
-                            <li class="lien_filtre border_filtre Border-décor" href="#"> <i class="fa-solid fa-person"
-                                    style="color: #0065fc;"></i>Familial</li>
-                            <li class="lien_filtre border_filtre Border-décor" href="#"> <i class="fa-solid fa-heart"
-                                    style="color: #0065fc;"></i>Romantique</li>
-                            <li class="lien_filtre border_filtre Border-décor" href="#"><i class="fa-solid fa-fire"
-                                    style="color: #0065fc;"></i>Nos`pépites</li>
+                            <h3 class="tittle_filtre"> Filtres </h3>
+                            <a class="lien_filtre border_filtre Border-décor" href="#"> <i
+                                    class="fa-solid fa-money-bill-wave" style="color: #0065fc;"></i> Économique</a>
+                            <a class="lien_filtre border_filtre Border-décor" href="#"> <i class="fa-solid fa-person"
+                                    style="color: #0065fc;"></i>Familial</a>
+                            <a class="lien_filtre border_filtre Border-décor" href="#"> <i class="fa-solid fa-heart"
+                                    style="color: #0065fc;"></i>Romantique</a>
+                            <a class="lien_filtre border_filtre Border-décor" href="#"><i class="fa-solid fa-fire"
+                                    style="color: #0065fc;"></i>Nos`pépites</a>
                         </div>
                     </div>
                 </div>
@@ -218,8 +218,9 @@
                             </div>
                     </article>
                 </a>
-                <div>
-                    <h3 class="more_info">Afficher plus</h3>
+                <div class="more_info">
+                    <br>
+                    <h3>Afficher plus</h3>
                 </div>
 
             </div>
@@ -343,19 +344,25 @@
         <article class="footer_contenaire">
             <div class="footer_column">
                 <h3> À propos</h3> <br>
+                <div class="Footer_text">
                 <a class="lien_decor" href="Fonctionnement du site">Fonctionnement du site</a> <br>
                 <a class="lien_decor" href="Conditions générales ">Conditions générales </a> <br>
                 <a class="lien_decor" href="Données et confidentialité">Données et confidentialité</a> <br>
+                </div>
             </div>
             <div class="footer_column">
-                <h3> Nos hébergements</h3>
-                <a class="lien_decor" href="Charte qualité">Charte qualité</a> <br>
+                <h3> Nos hébergements</h3> <br>
+                <div class="Footer_text">
+                <a class="lien_decor" href="Charte qualité">Charte qualité</a> <br> <br>
                 <a class="lien_decor" href="Proposer votre hôtel ">Proposer votre hôtel </a> <br>
+                </div>    
             </div>
             <div class="footer_column">
                 <h3>Assistance</h3> <br>
-                <a class="lien_decor" href="Centre d’aide">Centre d’aide</a> <br>
+                <div class="Footer_text">
+                <a class="lien_decor" href="Centre d’aide">Centre d’aide</a> <br> <br>
                 <a class="lien_decor" href="Nous contacter ">Nous contacter </a> <br>
+            </div>    
             </div>
         </article>
 
