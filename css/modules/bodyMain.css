@@ -6,7 +6,7 @@
 /****** Hebergements And Populaires container ***********/
 .hebergements-and-populaires {
     display: flex;
-    justify-content: space-between;
+    
     flex-direction: row;
     flex-wrap: wrap;
     height: 100%;
@@ -192,6 +192,11 @@ a {
 
 }
 
+.populaires-cards{
+    width: 95%;
+    margin-left: 2%;
+}
+
 @media screen and (max-width: 1024px) {
 
     .hebergements-and-populaires {
@@ -217,7 +222,11 @@ a {
     }
 
     .cards {
-        width: 98%;
+        width: 95%;
+    }
+    
+    .populaires-cards{
+        width: 95%;
     }
 
 
@@ -351,7 +360,7 @@ a {
 
     .card_hebergement {
         display: flex;
-        width: 98% !important;
+        width: 95% !important;
     }
 
     .populaires {
@@ -378,7 +387,7 @@ a {
         flex-wrap: nowrap;
         align-content: space-around;
         align-items: flex-start;
-        width: 98%;
+        width: 95%;
 
     }
 
