@@ -5,12 +5,11 @@
 
 /****** Hebergements And Populaires container ***********/
 .hebergements-and-populaires {
-    display: flex;
-    
+    display: flex; 
     flex-direction: row;
     flex-wrap: wrap;
     height: 100%;
-    width: 99%;
+    width: 108%;
     background-color: white;
     gap: 10px;
 

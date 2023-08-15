@@ -8,7 +8,7 @@
     text-decoration: none;
     margin-right: 1rem;
     height: 79px;
-    width: 98%;
+    width: 108%;
 }
 
 .appBar {
@@ -17,6 +17,7 @@
     align-items: flex-end;
     flex-direction: row;
     height: 79px;
+    width: 108%;
 }
 
 .appBar__icon {
@@ -44,12 +45,20 @@
 
 }
 
+@media screen and (max-width:1024px) {
+
+    .appBar{
+        width: 103%;
+    }
+    
+}
+
 
 @media screen and (max-width: 768px) {
 
     .appBar {
         margin-top: 10%;
-        width: 98%;
+        width: 107%;
     }
 
     .appBar__icon {
@@ -94,7 +103,7 @@
         flex-direction: row;
         justify-content: center;
         padding: 0px !important;
-        gap: 0;
+        gap: 25%;
     }
 
 
