@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 98%;
+    width: 1440px;
 }
 
 .hero__title {
@@ -21,7 +21,7 @@
 
 .search_bar-destop {
     font-size: 18px;
-    width: 47%;
+    width: 100%;
     height: 24%;
     display: flex;
     flex-direction: row;
@@ -61,7 +61,7 @@
 
 .search-click {
     height: 3.31rem;
-    width: 10rem;
+    width: 7rem;
     cursor: pointer;
     color: white;
     background-color: #0065fc;
@@ -153,7 +153,7 @@
     display: none;
 }
 
-@media screen and (max-width: 768px)and (max-device-width : 1024px) {
+@media screen and (max-width: 768px)and (min-device-width : 1024px) {
 
     .hero {
         display: flex;
@@ -186,16 +186,28 @@
 
     }
 
-@media screen and (max-width: 320px) {
+    @media screen and (min-width: 320px) and (max-width:767px) {
+
+     .hero{
+        margin-left: 4%;
+        width: 90%;
+        display: flex;
+        flex-direction: column;
+        align-content: flex-start;
+        justify-content: space-between;
+        align-items: stretch;
+     }   
 
     .hero__title {
-        font-size: larger;
-        margin-top: 5%;
+        font-size: xxx-large;
+        height: 10%;
+        display: flex;
+        flex-wrap: wrap;
     }
 
     .search_bar-icon {
-        height: 3.31rem;
-        width: 2rem;
+        height: 7.31rem;
+        width: 6rem;
 
 
     }
@@ -212,36 +224,36 @@
 
     .button-search_gsm {
         display: flex;
-        width: 0px;
-        height: 0;
+        height: 7.31rem;
+        width: 6rem;
         color: transparent;
         justify-content: space-evenly;
     }
 
     .text-area {
-        height: 3.31rem;
-        width: 238px;
+       
+        height: 7.31rem;
+        width: 202vh;
     }
 
     .border_filtre,
     .Border-décor {
         display: flex;
-        flex-wrap: wrap;
-        width: fit-content !important;
-        width: auto !important;
+        flex-direction: column;
+        flex-wrap: nowrap;
+       
 
     }
 
     .contenair_filtre {
-        display: flex !important;
-        padding-bottom: 5%;
+        padding-left: 3%;
     }
 
     .tittle_filtre {
         display: flex !important;
         font-size: x-large;
         width: 100% !important;
-        padding-left: 0px;
+        padding-left: 4%;
 
 
     }

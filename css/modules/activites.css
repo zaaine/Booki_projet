@@ -1,6 +1,6 @@
 .container_activites {
     margin-top: 4rem;
-    width: 1415px;
+    width: 1440px;
     height: 591px;
     display: flex;
     flex-direction: row;
@@ -10,38 +10,33 @@
 }
 
 .title_activité {
-    font-size: x-large;
     display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    flex-flow: row;
-    padding-left: 50px;
+  
 }
 
 .card-activités_position {
 
     display: flex;
     flex-direction: row;
-    gap: 50px;
-    margin-top: 20px;
-    margin-left: 30px;
+    gap: 3%;
+   width: 1440px;
 
 }
 
 
 .card_activités {
-    width: 325px;
-    height: 438px;
+    width: 320px;
+    height: 459px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding-bottom: 20px;
+   
 
 }
 
 .img-activités {
-    width: 292px;
-    height: 371px;
+    width: 318px;
+    height: 372px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -49,68 +44,27 @@
     object-fit: cover;
 }
 
-@media screen and (max-width: 1024px) {
 
 
+@media screen and (min-width: 768px) and (max-width:1024px)  {
 
-    .container_activites {
-        width: 98%;
-    }
-
-
-
-    .card-activités_position {
-        gap: 20px;
-    }
-
-
-    .card_activités {
-        width: 220px;
-        height: 338px;
-        display: flex;
-
-    }
-
-    .img-activités {
-        width: 192px;
-        height: 271px;
-        display: flex;
-
-    }
-
-
-
-}
-
-@media screen and (max-width: 768px) {
-
-    .container_activites {
-        width: 98%;
-        height: 30%;
-        display: flex;
-        align-content: flex-end;
-    }
+    
 
 
     .card-activités_position {
         flex-wrap: nowrap;
-        gap: 10px;
+        
     }
 
-    .card_activités {
-        width: 165px;
-        height: 260px;
-        flex-direction: column;
-    }
-
+ 
     .img-activités {
-        width: 143px;
-        height: 150px;
+    width: 315px;
+    height: 286px;
     }
 
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) and (max-width:767px) {
 
     .container_activites {
         width: 98%;
@@ -134,5 +88,6 @@
 
     .card-activités_position {
         flex-wrap: wrap;
+        flex-direction: column;
     }
 }
