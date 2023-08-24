@@ -1,71 +1,60 @@
 .appBar__navItem {
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    font-size: larger;
-    text-decoration: none;
-    height: 79px;
-    width: 98%;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: larger;
+  text-decoration: none;
+  height: 79px;
+  width: 98%;
 }
 
-.appBar 
-    {
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-end;
-        flex-direction: row;
-        height: 79px;
-        width: 1440px;
-    }
-
+.appBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-direction: row;
+  height: 79px;
+  width: 1440px;
+}
 
 .appBar__icon {
-    width: 11,86rem;
-    height: 3.69rem;
-    margin-bottom: 20px;
-
+  width: 11, 86rem;
+  height: 3.69rem;
+  margin-bottom: 20px;
 }
 
 .appBar__nav {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 25px;
-    gap: 3.75rem;
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+  gap: 3.75rem;
 }
-
 
 .appBar__navItem:hover,
 .appBar__navItem.active {
-    border-top: 4px solid blue;
-    color: blue;
-
+  border-top: 4px solid blue;
+  color: blue;
 }
 
+@media screen and (max-width: 768px) and (max-width: 1024px) {
+  .appBar {
+    margin-top: 10%;
+    width: 98%;
+  }
 
-@media screen and (max-width: 768px) and (max-width:1024px)  {
+  .appBar__icon {
+    width: 4rem;
+    height: 2.9rem;
+    margin-bottom: 37px;
+  }
 
-    .appBar {
-        margin-top: 10%;
-        width: 98%;
-    }
-
-    .appBar__icon {
-        width: 4rem;
-        height: 2.9rem;
-        margin-bottom: 37px;
-    }
-
-
-    .appBar__navItem:hover,
-    .appBar__navItem.active {
-        border-bottom: 4px solid blue;
-        border-top: none;
-        color: blue;
-
-    }
-
+  .appBar__navItem:hover,
+  .appBar__navItem.active {
+    border-bottom: 4px solid blue;
+    border-top: none;
+    color: blue;
+  }
 }
