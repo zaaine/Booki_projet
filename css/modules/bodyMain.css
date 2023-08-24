@@ -27,7 +27,6 @@
 
 /****** Hebergements cards ***********/
 .hebergements {
-   
     width: 60%;
     padding: 2%;
 }
@@ -42,9 +41,6 @@
     flex-wrap: wrap;
     justify-content: space-around;
     gap: 3%;
-    
-
-
 }
 
 a {
@@ -79,13 +75,15 @@ a {
     display: flex;
     margin: 0;
     justify-items: center;
-    
-
 }
 
 .more_info {
     display: flex;
     width: 100%;
+}
+
+.card-content{
+    margin-left: 3%;
 }
 
 /****** Populaires ***********/
@@ -101,8 +99,6 @@ a {
     justify-content: space-between;
     align-items: center;
 }
-
-
 
 .populaires-cards .card {
     display: flex;
