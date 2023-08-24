@@ -79,6 +79,8 @@ a {
     display: flex;
     margin: 0;
     justify-items: center;
+   
+    
     
 
 }
@@ -86,6 +88,7 @@ a {
 .more_info {
     display: flex;
     width: 100%;
+    padding-top: 3%;
 }
 
 /****** Populaires ***********/
@@ -100,6 +103,8 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+  
+    
 }
 
 
