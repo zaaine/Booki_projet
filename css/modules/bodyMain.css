@@ -157,6 +157,9 @@ a {
     display: flex;
 }
 
+.neutral-star{
+    color: #F2F2F2;
+}
 
 .section-title {
     margin: 0;
