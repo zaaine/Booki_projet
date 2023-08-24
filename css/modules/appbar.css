@@ -22,8 +22,8 @@
 
 
 .appBar__icon {
-    width: 6rem;
-    height: 4.9rem;
+    width: 11,86rem;
+    height: 3.69rem;
     margin-bottom: 20px;
 
 }
@@ -68,47 +68,4 @@
 
     }
 
-}
-
-@media screen and (min-width: 320px) and (max-width:767px)   {
-    .appBar {
-        justify-content: center;
-        flex-direction: column !important;
-        align-items: center;
-        height: 10% !important;
-        margin-top: 10%;
-        width: 98%;
-        flex-wrap: inherit;
-        height: fit-content;
-
-    }
-
-    .appBar__icon {
-        display: flex;
-        align-items: center;
-        height: 4.9rem;
-        width: 21rem;
-
-    }
-
-    .appBar__nav {
-        flex-wrap: nowrap;
-        flex-direction: row;
-        width: 50%;
-       
-    }
-
-    .appBar__navItem{
-        font-size: xx-large;
-
-    }
-
-
-    .appBar__navItem:hover,
-    .appBar__navItem.active {
-        border-bottom: 4px solid blue;
-        border-top: none;
-        color: blue;
-
-    }
 }
