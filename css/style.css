@@ -55,3 +55,311 @@
 }  
 }
 
+
+@media screen and (max-width: 767px) {
+
+    :root {
+        /* Mobile Variables */
+
+        --body-font-weight: 400;
+        /*INFORMATION*/
+        --body-highlight-font-weight: 700;
+        /*TITRE CARDS*/
+        --title-font-weight: 700;
+        /*TITRE*/
+    
+        --body-font-size: 20.93rem;
+        --body-highlight-font-size: 20.93rem;
+        --title-font-size: 18.75rem;
+    
+        --body-line-height: 1.20rem;
+        --body-highlight-line-height: 3.25rem;
+        --title-line-height: 1.625rem;
+      }
+
+    .appBar {
+        justify-content: center;
+        flex-direction: column !important;
+        align-items: center;
+        height: 10% !important;
+        margin-top: 10%;
+        width: 98%;
+        flex-wrap: inherit;
+        height: fit-content;
+
+    }
+
+    .appBar__icon {
+        display: flex;
+        align-items: center;
+        height: 2.9rem;
+        width: initial;
+
+    }
+
+    .appBar__nav {
+        flex-wrap: nowrap;
+        flex-direction: row;
+        justify-content: center;
+        font-weight: 400;
+        font-size: xx-large;
+    }
+
+
+    .appBar__navItem:hover,
+    .appBar__navItem.active {
+        border-bottom: 4px solid blue;
+        border-top: none;
+        color: blue;
+
+    }
+
+    .hero{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-content: stretch;
+        align-items: stretch;
+        margin-left: 7%;
+    }
+    
+
+    .hero__title {
+        margin-top: 5%;
+        font-weight: bold;
+        font-size: 5.5rem;
+        display: flex;
+        flex-wrap: wrap;
+        text-align: start;
+    }
+
+    .sub-tittle{
+        font-size: 2.4rem;
+    }
+
+    .search_bar-icon {
+        height: 3.06rem;
+        width: 3.12rem;
+    }
+
+    .search-bar_desktop {
+        width: 8.25rem;
+        height: 3.06rem;
+        height: 24%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: space-between; 
+    }
+
+    .search-click {
+        display: none;
+    }
+
+    .button-search_gsm {
+        display: flex;
+        width: 3.06rem;
+        height: 3.06rem;
+        color: white;
+    }
+
+    .text-area {
+        height: 3.06rem;
+        width: 17.31rem;
+    }
+
+    
+    .Border-décor {
+        
+    border-radius: 25px 25px 25px 25px;
+    border: 2px solid #D9D9D9;
+    padding: 2%;
+    font-weight: 800;
+    margin: auto;
+    width: 45%;
+    margin-bottom: 2%;
+    gap: 16%;
+
+    }
+
+    .contenair_filtre {
+        display: flex 
+        padding-bottom: 5%;
+        width: 98%;
+    }
+
+    .tittle_filtre {
+        display: flex;
+        font-size: x-large;
+        width: 100%;
+        padding-left: 0px;
+    }
+
+    
+
+    .filtre-selection {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-content: space-around;
+        justify-content: space-around;
+        align-items: center;
+        width:100%
+    }
+
+    .hebergements-and-populaires {
+        flex-direction: column-reverse !important;
+        display: flex;
+        flex-wrap: nowrap;
+        margin-left: 4%;
+    }
+
+    .hebergements-and-populaires section {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: flex-start;
+        height: auto;
+        width: 100%;
+    }
+
+    .hebergements {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 40%;
+        height: max-content;
+    }
+
+    .main_cards {
+        display: flex;
+        flex-wrap: nowrap;
+        justify-items: center;
+        align-items: flex-start;
+        align-content: center;
+        width: 98%;
+        justify-content: flex-start;
+        flex-direction: column;
+    }
+
+    .img_main-cards {
+        display: flex;
+        height: 70%;
+        width: 100%;
+        border-radius: 20px 20px 0 0; }
+
+    .card_hebergement {
+        display: flex;
+        width: 95%;
+        height: 50.9rem;
+    }
+
+    .card-content{
+        width: 90%;
+        padding-left: 3%;
+    }
+    .populaires {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column !important;
+        width: 30%;
+        height: max-content;
+    }
+
+    .populaires-title {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        align-content: flex-end;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .populaires-cards img {
+        width: 55%;
+        height: 16.5rem;
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+
+    .populaires-cards {
+        display: flex;
+        flex-direction: column !important;
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        align-content: space-around;
+        align-items: flex-start;
+        width: 95%;
+
+    }
+
+    .card {
+        width: 98% !important;
+        flex-direction: row !important;
+
+    }
+
+    .populaires-cards .card {
+        flex-direction: column;
+        width: 98%;
+    }
+
+    .card-title{
+        font-size: 2.3rem;
+    }
+
+    .card-txt{
+        font-size: 1.9rem;
+    }
+
+    .card-rating{
+        font-size: 1.9rem;
+    }
+
+    .container_activites {
+        width: 98%;
+        display: flex;
+        flex-wrap: wrap !important;
+        height: inherit !important;
+    }
+
+    .card_activités {
+        width: 98%;
+        height: 36rem;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        padding-left: 4%;
+    }
+
+    .img-activités {
+        width: 100%;
+        height: 27rem;
+        display: flex;
+    }
+
+    .card-activités_position {
+        flex-wrap: wrap;
+        width: 100%;
+    }
+
+    .footer_contenaire {
+
+        flex-direction: column !important;
+        align-content: flex-start;
+        flex-wrap: wrap;
+        width: 100%;
+        background-color: #F2F2F2;
+        height: inherit !important;
+        
+    }
+
+    .footer_column {
+        align-content: flex-start;
+        flex-wrap: wrap;
+        width: 100%;
+        height: inherit !important;
+        margin-left: 8%;
+
+    }
+}
