@@ -44,14 +44,15 @@
     margin-top: 2%;
     padding-left: 5%;
     padding-right: 5%;
-    width: max-content;
+    width: 100%;
     max-width: 1440px;
 }
 
-@media screen and (min-width: 768px) and (max-width:1024px)  {
 
-  .main-container{ 
-    width: max-content;
-}  
-}
+@media screen and  (min-width : 1024px) and (max-width: 320px)
+{
+    .main-container{
+        width: 100%;
 
+    }
+ }

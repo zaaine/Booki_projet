@@ -17,7 +17,7 @@
         align-items: flex-end;
         flex-direction: row;
         height: 79px;
-        width: 1440px;
+        max-width: 1440px;
     }
 
 
@@ -48,10 +48,6 @@
 
 @media screen and (max-width: 768px) and (max-width:1024px)  {
 
-    .appBar {
-        margin-top: 10%;
-        width: 98%;
-    }
 
     .appBar__icon {
         width: 4rem;
@@ -70,7 +66,7 @@
 
 }
 
-@media screen and (min-width: 320px) and (max-width:767px)   {
+@media screen and (min-width: 320px) and (max-width:760px)   {
     .appBar {
         justify-content: center;
         flex-direction: column !important;
