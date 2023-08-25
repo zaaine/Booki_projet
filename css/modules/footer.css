@@ -3,6 +3,7 @@
     flex-direction: row;
     flex-wrap: nowrap;
     background-color: #f2f2f2;
+    padding-left: 2%;
   }
   
   .footer_column {
