@@ -1,188 +1,188 @@
-@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Manrope&family=Montserrat:wght@400;600&family=Raleway:ital,wght@0,100;0,200;0,400;1,400;1,500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Belanosima&family=Manrope&family=Montserrat:wght@400;600&family=Raleway:ital,wght@0,100;0,200;0,400;1,400;1,500&display=swap");
 
 /*Module*/
-@import './modules/appbar.css';
-@import'./modules/heroheader.css';
-@import'./modules/bodyMain.css';
-@import'./modules/activites.css';
-@import'./modules/footer.css';
-
+@import "./modules/appbar.css";
+@import "./modules/heroheader.css";
+@import "./modules/bodyMain.css";
+@import "./modules/activites.css";
+@import "./modules/footer.css";
 
 /****** General ***********/
 * {
-    font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
-html{
-    font-size: 16px;
+html {
+  font-size: 16px;
 }
 
 :root {
-    --main-color: blue;
-    --main-bg-color: #F2F2F2;
-    --filter-bg-color: #DEEBFF;
+  --main-color: blue;
+  --main-bg-color: #f2f2f2;
+  --filter-bg-color: #deebff;
 
-    /* Text configuration */
-    --body-font: 'Raleway';
-    --body-highlight-font: 'Raleway';
-    --title-font: 'Raleway';
+  /* Text configuration */
+  --body-font: "Raleway";
+  --body-highlight-font: "Raleway";
+  --title-font: "Raleway";
 
+  --body-font-weight: 600;
+  /*INFORMATION*/
+  --body-highlight-font-weight: 700;
+  /*TITRE CARDS*/
+  --title-font-weight: 700;
+  /*TITRE*/
 
-    --body-font-weight: 600;
+  --body-font-size: 1.18rem;
+  --body-highlight-font-size: 1rem;
+  --title-font-size: 1.37rem;
+
+  --body-line-height: 1.2rem;
+  --body-highlight-line-height: 1.17rem;
+  --title-line-height: 1.61rem;
+}
+
+.main-container {
+  margin-top: 2%;
+  padding-left: 5vh;
+  padding-right: 5vh;
+  width: 98%;
+  max-width: 1440px;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .main-container {
+    width: max-content;
+    padding: Opx;
+    margin: 0px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  :root {
+    /* Mobile Variables */
+
+    --body-font-weight: 400;
     /*INFORMATION*/
     --body-highlight-font-weight: 700;
     /*TITRE CARDS*/
     --title-font-weight: 700;
     /*TITRE*/
 
-    --body-font-size: 1.18rem;
-    --body-highlight-font-size: 1rem;
-    --title-font-size: 1.37rem;
+    --body-font-size: 20.93rem;
+    --body-highlight-font-size: 20.93rem;
+    --title-font-size: 18.75rem;
 
     --body-line-height: 1.2rem;
-    --body-highlight-line-height: 1.17rem;
-    --title-line-height: 1.61rem;
-}
+    --body-highlight-line-height: 3.25rem;
+    --title-line-height: 1.625rem;
+  }
 
-.main-container {
-    margin-top: 2%;
-    padding-left: 5%;
-    padding-right: 5%;
+  .main-container {
     width: max-content;
-    max-width: 1440px;
-}
+    padding-left: 0cap !important;
+    padding-right: O;
+  }
 
-@media screen and (min-width: 768px) and (max-width:1024px)  {
+  .appBar {
+    justify-content: center;
+    flex-direction: column !important;
+    align-items: center;
+    height: 10% !important;
+    margin-top: 10%;
+    width: 98%;
+    flex-wrap: inherit;
+    height: fit-content;
+  }
 
-  .main-container{ 
-    width: max-content;
-}  
-}
+  .appBar__icon {
+    display: flex;
+    align-items: center;
+    height: 2.9rem;
+    width: initial;
+  }
 
+  .appBar__nav {
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    font-weight: 400;
+    font-size: xx-large;
+    width: 100%;
+  }
 
-@media screen and (max-width: 767px) {
+  .appBar__navItem:hover,
+  .appBar__navItem.active {
+    border-bottom: 4px solid blue;
+    border-top: none;
+    color: blue;
+  }
 
-    :root {
-        /* Mobile Variables */
+  .hero {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: stretch;
+    align-items: stretch;
+    margin-left: 7%;
+  }
 
-        --body-font-weight: 400;
-        /*INFORMATION*/
-        --body-highlight-font-weight: 700;
-        /*TITRE CARDS*/
-        --title-font-weight: 700;
-        /*TITRE*/
-    
-        --body-font-size: 20.93rem;
-        --body-highlight-font-size: 20.93rem;
-        --title-font-size: 18.75rem;
-    
-        --body-line-height: 1.20rem;
-        --body-highlight-line-height: 3.25rem;
-        --title-line-height: 1.625rem;
-      }
+  .hero__title {
+    margin-top: 5%;
+    font-weight: bold;
+    font-size: 5.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: start;
+  }
 
-    .appBar {
-        justify-content: center;
-        flex-direction: column !important;
-        align-items: center;
-        height: 10% !important;
-        margin-top: 10%;
-        width: 98%;
-        flex-wrap: inherit;
-        height: fit-content;
+  .sub-tittle {
+    font-size: 2.4rem;
+  }
 
-    }
+  .border_bar {
+    width: 100%;
+  }
 
-    .appBar__icon {
-        display: flex;
-        align-items: center;
-        height: 2.9rem;
-        width: initial;
+  .search_bar-icon {
+    height: 4.06rem;
+    width: 5.12rem;
+  }
 
-    }
+  .search-bar_desktop {
+    width: 100% !important;
+    height: 4.06rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
 
-    .appBar__nav {
-        flex-wrap: nowrap;
-        flex-direction: row;
-        justify-content: center;
-        font-weight: 400;
-        font-size: xx-large;
-        width: 100%;
-    }
+  .search-click {
+    display: none;
+  }
 
+  .button-search_gsm {
+    display: flex;
+    height: 4.06rem;
+    width: 5.12rem;
+    background-color: #0065fc;
+    border-radius: 15px;
+    align-items: center;
+    justify-content: center;
+  }
 
-    .appBar__navItem:hover,
-    .appBar__navItem.active {
-        border-bottom: 4px solid blue;
-        border-top: none;
-        color: blue;
+  .text-area {
+    height: 4.06rem;
+    width: 80%;
+    font-size: xx-large;
+    margin-left: 8%;
+  }
 
-    }
-
-    .hero{
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-content: stretch;
-        align-items: stretch;
-        margin-left: 7%;
-    }
-    
-
-    .hero__title {
-        margin-top: 5%;
-        font-weight: bold;
-        font-size: 5.5rem;
-        display: flex;
-        flex-wrap: wrap;
-        text-align: start;
-    }
-
-    .sub-tittle{
-        font-size: 2.4rem;
-    }
-
-    .border_bar{
-        width: 100%;
-    }
-
-    .search_bar-icon {
-        height: 3.06rem;
-        width: 3.12rem;
-    }
-
-    .search-bar_desktop {
-        width: 100%!important;
-        height: 3.06rem;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: space-between; 
-    }
-
-    .search-click {
-        display: none;
-    }
-
-    .button-search_gsm {
-        display: flex;
-        width: 3.06rem;
-        height: 3.06rem;
-        color: white;
-    }
-
-    .text-area {
-        height: 3.06rem;
-        width: 80%;
-        font-size: xx-large;
-        margin-left: 8%;
-    }
-
-    
-    .Border-décor {
+  .Border-décor {
     border-radius: 25px 25px 25px 25px;
-    border: 2px solid #D9D9D9;
+    border: 2px solid #d9d9d9;
     padding: 2%;
     font-weight: 800;
     margin: auto;
@@ -190,207 +190,214 @@ html{
     margin-bottom: 2%;
     gap: 16%;
     font-size: xx-large;
+  }
 
-    }
+  .contenair_filtre {
+    display: flex;
+    padding-bottom: 5%;
+    width: 98%;
+  }
 
-    .contenair_filtre {
-        display: flex 
-        padding-bottom: 5%;
-        width: 98%;
-    }
+  .tittle_filtre {
+    display: flex;
+    font-size: xxx-large;
+    width: 100%;
+    padding-left: 0px;
+  }
 
-    .tittle_filtre {
-        display: flex;
-        font-size: xxx-large;
-        width: 100%;
-        padding-left: 0px;
-    }
+  .Filtres-selection {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
 
-    
+  .hebergements-and-populaires {
+    flex-direction: column-reverse !important;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-left: 4%;
+  }
 
-    .Filtres-selection {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-content: space-around;
-        justify-content: space-around;
-        align-items: center;
-        width:100%
-    }
+  .hebergements-and-populaires section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: auto;
+    width: 100%;
+    background-color: white;
+  }
 
-    .hebergements-and-populaires {
-        flex-direction: column-reverse !important;
-        display: flex;
-        flex-wrap: nowrap;
-        margin-left: 4%;
-    }
+  .hebergements {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 40%;
+    height: max-content;
+    background-color: none;
+  }
 
-    .hebergements-and-populaires section {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        justify-content: flex-start;
-        height: auto;
-        width: 100%;
-    }
+  .hebergement_tittle {
+    font-size: 4.35rem;
+  }
 
-    .hebergements {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column;
-        width: 40%;
-        height: max-content;
-    }
+  .main_cards {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-items: center;
+    align-items: flex-start;
+    align-content: center;
+    width: 98%;
+    justify-content: flex-start;
+    flex-direction: column;
+  }
 
-    .hebergement_tittle{
-        font-size: 4.35rem;
-    }
+  .img_main-cards {
+    height: 60%;
+    width: 100%;
+    border-radius: 25px 25px 0 0;
+  }
 
-    .main_cards {
-        display: flex;
-        flex-wrap: nowrap;
-        justify-items: center;
-        align-items: flex-start;
-        align-content: center;
-        width: 98%;
-        justify-content: flex-start;
-        flex-direction: column;
-    }
+  .card_hebergement {
+    width: 95%;
+    height: 44.9rem;
+  }
 
-    .img_main-cards {
-        display: flex;
-        height: 70%;
-        width: 100%;
-        border-radius: 20px 20px 0 0; }
+  .card-content {
+    width: 98%;
+    padding-left: 3%;
+  }
+  .style_h3{
+   font-size: xxx-large;
+  }
 
-    .card_hebergement {
-        display: flex;
-        width: 95%;
-        height: 50.9rem;
-    }
+  .populaires {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column !important;
+    width: 30%;
+    height: max-content;
+    background-color: white;
+  }
 
-    .card-content{
-        width: 90%;
-        padding-left: 3%;
-    }
-    .populaires {
-        display: flex;
-        flex-wrap: wrap;
-        flex-direction: column !important;
-        width: 30%;
-        height: max-content;
-    }
+  .populaires-title {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: flex-end;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 3.35rem;
+    margin-left: 2%;
+    background-color: #f2f2f2;
+  }
 
-    .populaires-title {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        align-content: flex-end;
-        justify-content: space-between;
-        align-items: center;
-        font-size: 3.35rem;
-        margin-left: 2%;
-    }
+  .populaires-cards img {
+    width: 33%;
+    height: 100%;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+  }
 
-    .populaires-cards img {
-        width: 33%;
-        height: 100%;
-        border-top-left-radius: 20px;
-        border-bottom-left-radius: 20px;
-    }
+  .populaires-cards {
+    display: flex;
+    flex-direction: column !important;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-content: space-around;
+    align-items: flex-start;
+    width: 100%;
+    background-color: #f2f2f2;
+  }
 
-    .populaires-cards {
-        display: flex;
-        flex-direction: column !important;
-        justify-content: space-between;
-        flex-wrap: nowrap;
-        align-content: space-around;
-        align-items: flex-start;
-        width: 95%;
+  .card {
+    width: 98% !important;
+    flex-direction: row !important;
+  }
 
-    }
+  .populaires-cards .card {
+    flex-direction: column;
+    width: 98%;
+    height: 23.5rem;
+  }
 
-    .card {
-        width: 98% !important;
-        flex-direction: row !important;
+  .card-txt {
+    font-size: 1.9rem;
+  }
 
-    }
+  .card-title {
+    font-weight: bold;
+    font-size: 3.2rem;
+  }
 
-    .populaires-cards .card {
-        flex-direction: column;
-        width: 98%;
-        height: 30.5rem;
-    }
+  .card-subtitle,
+  p {
+    text-orientation: mixed;
+    font-size: 2rem;
+  }
 
-    .card-title{
-        font-size: 2.3rem;
-    }
+  .card-rating {
+    font-size: 2.9rem;
+  }
 
-    .card-txt{
-        font-size: 1.9rem;
-    }
+  .title_activité {
+    font-size: 4.35rem;
+    margin-left: 8%;
+  }
+  .container_activites {
+    width: 98%;
+    display: flex;
+    flex-wrap: wrap !important;
+    height: inherit !important;
+  }
 
-    .card-rating{
-        font-size: 1.9rem;
-    }
+  .card_activités {
+    width: 95%;
+    height: 50.9rem;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    padding-left: 4%;
+  }
 
-    .title_activité{
-        font-size: 4.35rem;
-        margin-left: 8%;
-    }
-    .container_activites {
-        width: 98%;
-        display: flex;
-        flex-wrap: wrap !important;
-        height: inherit !important;
-    }
+  .img-activités {
+    width: 100%;
+    height: 70%;
+    display: flex;
+  }
 
-    .card_activités {
-        width: 95%;
-        height: 50.9rem;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        padding-left: 4%;
-    }
+  .card-activités_position {
+    flex-wrap: wrap;
+    width: 100%;
+  }
 
-    .img-activités {
-        width: 100%;
-        height: 70%;
-        display: flex;
-    }
+  .propriété_h3 {
+    font-size: 2.9rem;
+    margin-left: 6%;
+  }
 
-    .card-activités_position {
-        flex-wrap: wrap;
-        width: 100%;
-    }
+  .footer_contenaire {
+    flex-direction: column !important;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #f2f2f2;
+    height: inherit !important;
+  }
 
-    .propriété_h3 {
-        font-size: 2.9rem;
-        margin-left: 6%;
-    }
+  .footer_column {
+    align-content: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    height: inherit !important;
+    margin-left: 8%;
+    font-size: xxx-large;
+  }
 
-    .footer_contenaire {
-        flex-direction: column !important;
-        align-content: flex-start;
-        flex-wrap: wrap;
-        width: 100%;
-        background-color: #F2F2F2;
-        height: inherit !important;
-        
-    }
-
-    .footer_column {
-        align-content: flex-start;
-        flex-wrap: wrap;
-        width: 100%;
-        height: inherit !important;
-        margin-left: 8%;
-        font-size: xxx-large;
-
-    }
-
-    .footer_text-position{
-        display: block;
-    }
-
+  .footer_text-position {
+    display: block;
+  }
 }
