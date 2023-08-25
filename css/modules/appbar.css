@@ -1,14 +1,15 @@
 .appBar__navItem {
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    font-size: larger;
-    text-decoration: none;
-    height: 79px;
-    width: 98%;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  font-size: larger;
+  text-decoration: none;
+  height: 79px;
+  width: 98%;
 }
+
 
 .appBar 
     {
@@ -22,28 +23,25 @@
 
 
 .appBar__icon {
-    width: 6rem;
-    height: 4.9rem;
-    margin-bottom: 20px;
-
+  width: 11, 86rem;
+  height: 3.69rem;
+  margin-bottom: 20px;
 }
 
 .appBar__nav {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 25px;
-    gap: 3.75rem;
-
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+  gap: 3.75rem;
 }
-
 
 .appBar__navItem:hover,
 .appBar__navItem.active {
-    border-top: 4px solid blue;
-    color: blue;
-
+  border-top: 4px solid blue;
+  color: blue;
 }
+
 
 
 @media screen and (max-width: 768px) and (max-width:1024px)  {
@@ -63,8 +61,15 @@
         color: blue;
 
     }
+  .appBar {
+    margin-top: 10%;
+    width: 98%;
+  }
 
 }
+
+
+
 
 @media screen and (min-width: 320px) and (max-width:760px)   {
     .appBar {
@@ -108,3 +113,4 @@
 
     }
 }
+
