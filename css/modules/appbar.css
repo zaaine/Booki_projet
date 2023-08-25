@@ -6,7 +6,7 @@
     justify-content: center;
     font-size: larger;
     text-decoration: none;
-    height: 79px;
+    height: 4.938rem;
     width: 98%;
   }
   
@@ -15,21 +15,21 @@
     justify-content: space-between;
     align-items: flex-end;
     flex-direction: row;
-    height: 79px;
-    width: 1440px;
+    height: 4.938rem;
+    width: 100%;
   }
   
   .appBar__icon {
     width: 11, 86rem;
     height: 3.69rem;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
   }
   
   .appBar__nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 25px;
+    padding: 1.56rem;
     gap: 3.75rem;
   }
   
@@ -48,7 +48,7 @@
     .appBar__icon {
       width: 4rem;
       height: 2.9rem;
-      margin-bottom: 37px;
+      margin-bottom: 2.13rem;
     }
   
     .appBar__navItem:hover,

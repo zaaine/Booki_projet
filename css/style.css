@@ -12,12 +12,10 @@
   font-family: "Raleway", sans-serif;
 }
 
-html {
-  font-size: 16px;
-}
+
 
 :root {
-  --main-color: blue;
+  --main-color: #0065fc;
   --main-bg-color: #f2f2f2;
   --filter-bg-color: #deebff;
 
@@ -46,7 +44,7 @@ html {
   margin-top: 2%;
   padding-left: 5vh;
   padding-right: 5vh;
-  width: 98%;
+  width: max-content;
   max-width: 1440px;
 }
 
@@ -80,8 +78,8 @@ html {
 
   .main-container {
     width: max-content;
-    padding-left: 0cap !important;
-    padding-right: O;
+    padding-left: 0% !important;
+    padding-right:0%;
   }
 
   .appBar {
@@ -202,7 +200,7 @@ html {
     display: flex;
     font-size: xxx-large;
     width: 100%;
-    padding-left: 0px;
+    padding-left: 0%;
   }
 
   .Filtres-selection {
@@ -271,6 +269,7 @@ html {
     width: 98%;
     padding-left: 3%;
   }
+
   .style_h3{
    font-size: xxx-large;
   }
@@ -294,6 +293,7 @@ html {
     font-size: 3.35rem;
     margin-left: 2%;
     background-color: #f2f2f2;
+    width: 100%;
   }
 
   .populaires-cards img {

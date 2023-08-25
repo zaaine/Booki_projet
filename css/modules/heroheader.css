@@ -13,19 +13,18 @@
 }
 
 .border_bar {
-  margin-top: 35px;
-  margin-bottom: 35px;
+  margin-top: 2.188rem;
+  margin-bottom: 2.188rem;
 }
 
 .search_bar-destop {
-  font-size: 18px;
-
+  font-size: 1.125rem;
   height: 3.06rem;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
   justify-content: flex-start;
-  padding-left: 0;
+  padding-left: 0%;
 }
 
 .search_bar-icon {
@@ -54,7 +53,6 @@
   border: none;
   color: black;
   padding-left: 1.5rem;
-  
 }
 
 .search-click {
@@ -89,9 +87,9 @@
   width: auto;
   text-decoration: none;
   color: black;
-  padding: 10px;
-  margin: 10px;
-  gap: 5px;
+  padding: 0.625rem;
+  margin: 0.625rem;
+  gap: 0.313rem;
 }
 
 .tittle_filtre {
@@ -103,7 +101,7 @@
 .border_filtre {
   display: flex;
   align-items: start;
-  gap: 16px;
+  gap: 1rem;
   justify-content: center;
   flex-wrap: nowrap;
   flex-direction: row;
@@ -116,9 +114,9 @@
   font-weight: 700;
 }
 
-.border_filtre:hover, .Border-décor:hover {
-    background-color: #DEEBFF;
-
+.border_filtre:hover,
+.Border-décor:hover {
+  background-color: #deebff;
 }
 
 .info-icon {
@@ -133,11 +131,11 @@
 .info_size {
   display: flex;
   flex-direction: column;
-  width: 27px;
-  height: 24px;
+  width: 1.688rem;
+  height: 1.5rem;
   justify-content: flex-start;
   flex-wrap: wrap;
-  padding-top: 8px;
+  padding-top: 0.5rem;
   border-radius: 50%;
   border: 1px grey solid;
   align-content: space-around;
@@ -157,7 +155,7 @@
   }
 
   h3 {
-    width: 100;
+    width: 100%;
     flex-wrap: wrap;
   }
 
@@ -165,7 +163,7 @@
   .Border-décor,
   .filtre-selection {
     flex-basis: content;
-    width: 4O%;
+    width: 40%;
   }
 
   .lien_filtre {

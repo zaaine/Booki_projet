@@ -9,7 +9,7 @@
   .footer_column {
     display: flex;
     flex-direction: column;
-    width: 440px;
+    width: 90%;
     height: 100%;
   }
   
@@ -28,7 +28,7 @@
     text-decoration: underline;
   }
   
-  /* Styliser les liens pour ne pas avoir de soulignement et color black */
+
   
   @media screen and (max-width: 768px) and (min-width: 1024px) {
     .footer_contenaire {
@@ -36,7 +36,7 @@
     }
   
     .footer_column {
-      width: 440px;
+      width: 27.5rem;
       height: inherit;
     }
   }
