@@ -167,10 +167,6 @@
 
 @media screen and (max-width: 768px)and (min-device-width : 1024px) {
 
-    .hero__titleContainer{
-        width: 1024px;
-    }
-
     .hero {
         display: flex;
         flex-wrap: wrap;
