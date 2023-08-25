@@ -1,93 +1,77 @@
 .container_activites {
-    margin-top: 4rem;
-    width: 1440px;
-    height: 591px;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-wrap: wrap;
+  margin-top: 4rem;
+  width: 1440px;
+  height: 591px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: wrap;
 }
 
 .title_activité {
-    display: flex;
-  
+  display: flex;
 }
 
 .card-activités_position {
-
-    display: flex;
-    flex-direction: row;
-    gap: 3%;
-   width: 1440px;
-
+  display: flex;
+  flex-direction: row;
+  gap: 3%;
+  width: 1440px;
 }
 
-
 .card_activités {
-    width: 320px;
-    height: 459px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-   
-
+  width: 320px;
+  height: 459px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .img-activités {
-    width: 318px;
-    height: 372px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    border-radius: 20px 20px 0 0;
-    object-fit: cover;
+  width: 318px;
+  height: 372px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  border-radius: 20px 20px 0 0;
+  object-fit: cover;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .card-activités_position {
+    flex-wrap: nowrap;
+  }
 
-
-@media screen and (min-width: 768px) and (max-width:1024px)  {
-
-    
-
-
-    .card-activités_position {
-        flex-wrap: nowrap;
-        
-    }
-
- 
-    .img-activités {
+  .img-activités {
     width: 315px;
     height: 286px;
-    }
-
+  }
 }
 
-@media screen and (min-width: 320px) and (max-width:767px) {
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .container_activites {
+    width: 98%;
+    display: flex;
+    flex-wrap: wrap !important;
+    height: inherit !important;
+  }
 
-    .container_activites {
-        width: 98%;
-        display: flex;
-        flex-wrap: wrap !important;
-        height: inherit !important;
-    }
+  .card_activités {
+    width: 290px;
+    height: 260px;
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
 
-    .card_activités {
-        width: 290px;
-        height: 260px;
-        flex-direction: column;
-        flex-wrap: nowrap;
-    }
+  .img-activités {
+    width: 290px;
+    height: 200px;
+    display: flex;
+  }
 
-    .img-activités {
-        width: 290px;
-        height: 200px;
-        display: flex;
-    }
-
-    .card-activités_position {
-        flex-wrap: wrap;
-        flex-direction: column;
-    }
+  .card-activités_position {
+    flex-wrap: wrap;
+    flex-direction: column;
+  }
 }
