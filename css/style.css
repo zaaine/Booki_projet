@@ -1,23 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Manrope&family=Montserrat:wght@400;600&family=Raleway:ital,wght@0,100;0,200;0,400;1,400;1,500&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Belanosima&family=Manrope&family=Montserrat:wght@400;600&family=Raleway:ital,wght@0,100;0,200;0,400;1,400;1,500&display=swap");
 
 /*Module*/
-@import './modules/appbar.css';
-@import'./modules/heroheader.css';
-@import'./modules/bodyMain.css';
-@import'./modules/activites.css';
-@import'./modules/footer.css';
-
+@import "./modules/appbar.css";
+@import "./modules/heroheader.css";
+@import "./modules/bodyMain.css";
+@import "./modules/activites.css";
+@import "./modules/footer.css";
 
 /****** General ***********/
 * {
-    font-family: 'Raleway', sans-serif;
+  font-family: "Raleway", sans-serif;
 }
 
 html{
     font-size: 16px;
 }
 
-:root {
+
     --main-color: blue;
     --main-bg-color: #F2F2F2;
     --filter-bg-color: #DEEBFF;
@@ -42,21 +41,25 @@ html{
     --body-line-height: 1.2rem;
     --body-highlight-line-height: 1.17rem;
     --title-line-height: 1.61rem;
+
 }
 
 .main-container {
-    margin-top: 2%;
-    padding-left: 5%;
-    padding-right: 5%;
-    width: max-content;
-    max-width: 1440px;
+  margin-top: 2%;
+  padding-left: 5%;
+  padding-right: 5%;
+  width: 100%;
+  max-width: 1440px;
+  margin: auto;
+  overflow: hidden;
+  position: absolute;
+  left: 0;
 }
 
-@media screen and (min-width: 768px) and (max-width:1024px)  {
-
-  .main-container{ 
-    width: max-content;
-}  
+@media screen and (min-width: 1024px) and (max-width: 320px) {
+  .main-container {
+    width: 100%;
+  }
 }
 
 
@@ -394,3 +397,4 @@ html{
     }
 
 }
+
