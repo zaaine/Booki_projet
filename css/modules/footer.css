@@ -15,6 +15,7 @@
 .footer_text {
   display: flex;
   align-items: center;
+  padding-bottom: 13px;
 }
 
 .lien_decor {

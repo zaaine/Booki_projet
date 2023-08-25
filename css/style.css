@@ -194,7 +194,7 @@ html{
     }
 
     .contenair_filtre {
-        display: flex 
+        display: flex; 
         padding-bottom: 5%;
         width: 98%;
     }

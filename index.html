@@ -22,7 +22,8 @@
     />
   </head>
 
-  <!-- Bar de Navigation-->
+  <!-- Nav Bar -->
+
   <body>
     <div class="main-container">
       <header class="appBar">
@@ -44,9 +45,9 @@
             <h1 class="hero__title">
               Trouvez votre hébergement pour des vacances de rêve
             </h1>
-            <p class="sub-tittle">En plein centre-ville ou en pleine nature</p>
-            
-            <div class="border_bar">
+            <p>En plein centre-ville ou en pleine nature</p>
+            <!-- afficher uniquement sur gsm -->
+            <div class="search_bar-destop border_bar">
               <div class="search_bar-destop">
                 <div class="search_bar-icon">
                   <i
@@ -54,13 +55,13 @@
                     style="color: #000000; display: flex"
                   ></i>
                 </div>
-
-                <input
-                  class="text-area"
-                  type="search"
-                  value="Marseille,France"
-                />
-
+                <div class="">
+                  <input
+                    class="text-area"
+                    type="search"
+                    value="Marseille,France"
+                  />
+                </div>
                 <div class="search-click">Rechercher</div>
                 <button class="button-search_gsm" type="button">
                   <img
@@ -74,33 +75,35 @@
 
           <div class="contenair_filtre">
             <div class="Filtres-selection">
-              <h2 class="tittle_filtre">Filtres</h2>
-              <a class="lien_filtre border_filtre Border-décor" href="#">
-                <i
-                  class="fa-solid fa-money-bill-wave"
-                  style="color: #0065fc"
-                ></i>
-                Économique</a
-              >
-              <a class="lien_filtre border_filtre Border-décor" href="#">
-                <i class="fa-solid fa-person" style="color: #0065fc"></i
-                >Familial</a
-              >
-              <a class="lien_filtre border_filtre Border-décor" href="#">
-                <i class="fa-solid fa-heart" style="color: #0065fc"></i
-                >Romantique</a
-              >
-              <a class="lien_filtre border_filtre Border-décor" href="#"
-                ><i class="fa-solid fa-fire" style="color: #0065fc"></i
-                >Nos`pépites</a
-              >
+              <div class="border_filtre">
+                <h3 class="tittle_filtre">Filtres</h3>
+                <a class="lien_filtre border_filtre Border-décor" href="#">
+                  <i
+                    class="fa-solid fa-money-bill-wave"
+                    style="color: #0065fc"
+                  ></i>
+                  Économique</a
+                >
+                <a class="lien_filtre border_filtre Border-décor" href="#">
+                  <i class="fa-solid fa-person" style="color: #0065fc"></i
+                  >Familial</a
+                >
+                <a class="lien_filtre border_filtre Border-décor" href="#">
+                  <i class="fa-solid fa-heart" style="color: #0065fc"></i
+                  >Romantique</a
+                >
+                <a class="lien_filtre border_filtre Border-décor" href="#"
+                  ><i class="fa-solid fa-fire" style="color: #0065fc"></i
+                  >Nos`pépites</a
+                >
+              </div>
             </div>
           </div>
 
           <div class="info-icon">
-            <a class="info_size"
-              ><i class="fa-solid fa-info" style="color: #0061ff"></i
-            ></a>
+            <div class="info_size">
+              <img src="./images/icons/info.png" alt="icon information" />
+            </div>
             <div>
               <p>Plus de 500 logements sont disponibles dans cette ville</p>
             </div>
@@ -291,8 +294,7 @@
 
               <div class="more_info">
                 <br />
-
-                <a href="#"><h3>Afficher plus</h3></a>
+                <a href="#"> <h3>Afficher plus</h3></a>
               </div>
             </div>
           </section>
@@ -413,7 +415,7 @@
                   src="./images/activites/reno-laithienne.jpg"
                   alt="photo-vieux-port"
                 />
-                <h3 class="propriété_h3">Vieux-Port</h3>
+                <h3>Vieux-Port</h3>
               </a>
             </div>
 
@@ -424,7 +426,7 @@
                   src="./images/activites/paul-hermann.jpg"
                   alt="photo Fort de Pomègues"
                 />
-                <h3 class="propriété_h3">Fort de Pomègues</h3></a
+                <h3>Fort de Pomègues</h3></a
               >
             </div>
 
@@ -435,7 +437,7 @@
                   src="./images/activites/kilyan-sockalingum.jpg"
                   alt="photo Parc national des Calanques"
                 />
-                <h3 class="propriété_h3">Parc national des Calanques</h3></a
+                <h3>Parc national des Calanques</h3></a
               >
             </div>
 
@@ -446,30 +448,23 @@
                   src="./images/activites/florian-wehde.jpg"
                   alt="photo Notre-Dame-de-la-Garde"
                 />
-                <h3 class="propriété_h3">Notre-Dame-de-la-Garde</h3></a
+                <h3>Notre-Dame-de-la-Garde</h3></a
               >
             </div>
           </div>
         </section>
       </main>
-       <!-- Footer -->
+
+       <!-- Footer-->
       <footer>
         <article class="footer_contenaire">
           <div class="footer_column">
             <h3>À propos</h3>
             <br />
             <div class="Footer_text">
-              <a class="lien_decor footer_text-position" href="#"
-                >Fonctionnement du site</a
-              >
-              <br />
-              <a class="lien_decor footer_text-position" href="#"
-                >Conditions générales
-              </a>
-              <br />
-              <a class="lien_decor footer_text-position" href="#"
-                >Données et confidentialité</a
-              >
+              <a class="lien_decor" href="#">Fonctionnement du site</a> <br /><br />
+              <a class="lien_decor" href="#">Conditions générales </a> <br /><br />
+              <a class="lien_decor" href="#">Données et confidentialité</a><br />
               <br />
             </div>
           </div>
