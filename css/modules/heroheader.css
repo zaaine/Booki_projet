@@ -138,7 +138,8 @@
   padding-top: 0.5rem;
   border-radius: 50%;
   border: 1px grey solid;
-  align-content: space-around;
+  align-content: center;
+  align-items: center;
 }
 
 .button-search_gsm {

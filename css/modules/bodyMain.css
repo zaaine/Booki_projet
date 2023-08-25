@@ -227,6 +227,7 @@ a {
 
   .populaires-title {
     flex: 1 1 100%;
+    margin: 2%;
   }
 
   .style_h3 {

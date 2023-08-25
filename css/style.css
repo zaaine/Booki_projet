@@ -173,7 +173,7 @@
 
   .text-area {
     height: 4.06rem;
-    width: 80%;
+    width: 75%;
     font-size: xx-large;
     margin-left: 8%;
   }
@@ -345,7 +345,7 @@
   }
 
   .title_activité {
-    font-size: 4.35rem;
+    font-size: 6.35rem;
     margin-left: 8%;
   }
   .container_activites {
@@ -360,7 +360,8 @@
     height: 50.9rem;
     flex-direction: column;
     flex-wrap: nowrap;
-    padding-left: 4%;
+    padding: 4%;
+    box-shadow: 2px 3px 3px #F2F2F2;
   }
 
   .img-activités {
@@ -375,7 +376,7 @@
   }
 
   .propriété_h3 {
-    font-size: 2.9rem;
+    font-size: 3.9rem;
     margin-left: 6%;
   }
 
