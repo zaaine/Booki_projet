@@ -91,7 +91,7 @@ header {
   height: 4.93rem;
 }
 .header-img {
-  padding: 1.875rem 3.125rem;
+  padding: 1.875rem 0rem;
   flex-direction: column;
   gap: 0.625rem;
   width: 3.81813rem;
@@ -161,9 +161,235 @@ header {
 }
 
 /* hero header */
+/* hero_header section  desktop */
+.hero_header {
+  display: flex;
+  flex-direction: column;
+  gap: 2.1875rem;
+}
+/* hero_header section for smartphone */
+@media (max-width: 768px) {
+  .hero_header {
+    padding: 0 1.25rem;
+  }
+}
 
+/* hero_header-slogans desktop*/
+.hero_header-slogans {
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+  margin: 0;
+  gap: 0.5rem;
+}
+.slogan1 {
+  margin: 0;
+}
+.slogan2 {
+  font-size: 1rem;
+  margin: 0;
+}
+/* hero_header formulaire desktop*/
+.hero_header-recherche {
+  height: 3.0625rem;
+  display: flex;
+  align-items: center;
+  border: 0.0625rem solid var(--main-bg-color);
+  border-radius: 0.9375rem;
+  margin-right: auto;
+}
+.formulaire_recherche {
+  width: 3.125rem;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  background-color: var(--main-bg-color);
+  border: 0.0625rem solid var(--main-bg-color);
+  border-radius: 0.9375rem 0 0 0.9375rem;
+}
+.localisation-icon {
+  margin: 1.125rem 1.1875rem;
+}
+.localisation-input {
+  width: 12.3125rem;
+  height: 100%;
+  font-size: 1.125rem;
+  font-weight: bold;
+  border: 0.0625rem solid var(--main-bg-color);
+  box-sizing: border-box;
+  padding: 0.9375rem 1.5rem;
+  border-right: none;
+}
+.localisation-button {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  border-radius: 0 0.9375rem 0.9375rem 0;
+  background-color: var(--main-color);
+  border: 0.0625rem solid transparent;
+  border-right: none;
+  color: white;
+  padding: 0.9375rem 1rem;
+  cursor: pointer;
+}
 
+::placeholder{
+    color: black;
+}
 
+.localisation-button-text {
+  font-size: 1.125rem;
+  font-weight: bold;
+}
+.localisation-button-icon {
+  display: none;
+}
+/* hero_header formulaire for smartphone */
+@media (max-width: 768px) {
+  .hero_header-recherche {
+    width: 100%;
+  }
+  .localisation-input {
+    width: 100%;
+    height: 100%;
+    
+  }
+  .localisation-button {
+    width: 3.0625rem;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.9375rem;
+    border: 0.0625rem solid var(--main-bg-color);
+  }
+  .localisation-button:hover {
+    box-shadow: 0rem 0.25rem 0.25rem 0rem rgba(0, 0, 0, 0.25);
+  }
+  .localisation-button-icon {
+    height: 1.0625rem;
+    width: 1.0625rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: var(--main-bg-color);
+  }
+  .localisation-button-text {
+    display: none;
+  }
+}
+
+/* Search filters for desktop*/
+.hero_header-filtres {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+.filtre-titre {
+  margin: 0;
+}
+.filtre-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.9375rem;
+  padding: 0 0.9375rem;
+  margin: 0;
+}
+.filtre {
+  height: 3.125rem;
+  display: flex;
+  align-items: center;
+  border: 0.125rem solid var(--background-color);
+  border-radius: 1.5625rem;
+  padding: 0.25rem 1.1875rem;
+  gap: 0.625rem;
+}
+.filtre:hover {
+  background-color: var(--main-color);
+  cursor: pointer;
+}
+.filtre-text {
+  font-size: 1.0625rem;
+  font-weight: bold;
+}
+.filtre_block-icon {
+  width: 1.375rem;
+  height: 1.375rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.icon_filtre {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* Search filters for tablet */
+@media (max-width: 1024px) {
+  .hero_header-filtres {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.25rem;
+  }
+  .filtre-container {
+    gap: 0.625rem;
+    padding: 0;
+  }
+  .filtre-text {
+    font-size: 1rem;
+  }
+}
+/* Search form for smartphone */
+@media (max-width: 768px) {
+  .hero_header-filtres {
+    display: flex;
+    justify-content: center;
+    gap: 0.625rem;
+  }
+  .filtre-container {
+    width: 100%;
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    justify-items: center;
+    padding: 0;
+    gap: 0.625rem;
+  }
+  .filtre {
+    width: 85%;
+    margin-top: 0.625rem;
+    align-items: center;
+    justify-content: center;
+  }
+  .filtre-text {
+    font-size: 0.875rem;
+  }
+}
+/* hero_header-informations  desktop/tablette/smartphone*/
+.hero_header-information {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+  margin-bottom: 2.19rem;
+}
+.information-icon-border {
+  min-height: 1.5rem;
+  min-width: 1.5rem;
+  border: solid 0.0625rem var(--background-color);
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.information-icon {
+  color: var(--main-color);
+}
+.slogan3 {
+  font-size: 1rem;
+  margin: 0;
+}
 
 /* Main for desktop*/
 .main {
@@ -178,7 +404,7 @@ header {
     padding: 0;
   }
 
-  body{
+  body {
     margin: auto;
   }
 }
@@ -190,7 +416,6 @@ header {
 }
 
 .hebergements-and-populaires section {
-  
   border-radius: 20px;
   padding: 30px;
   box-sizing: border-box;
@@ -377,14 +602,13 @@ header {
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-
-   .main-container{
+  .main-container {
     padding: 0;
-   } 
+  }
 
-   .hebergements-and-populaires section{
+  .hebergements-and-populaires section {
     border-radius: 0;
-   }
+  }
 
   .hebergements-and-populaires {
     flex-direction: column-reverse;
@@ -392,12 +616,10 @@ header {
     background-color: initial;
   }
   .hebergements {
-    
     background-color: initial;
     padding: 1.25rem;
   }
   .populaires {
-    
     padding: 1.875rem 1.25rem;
     background-color: var(--main-bg-color);
   }
@@ -422,14 +644,24 @@ header {
 
   /* affichage ordre liste herbergement*/
 
-  .ordre1{ order: 0;}
-  .ordre2{order: 5;}
-  .ordre3{order: 2;}
-  .ordre4{order: 3;}
-  .ordre5{order: 1;}
-  .ordre6{order: 4;}
-
-
+  .ordre1 {
+    order: 0;
+  }
+  .ordre2 {
+    order: 5;
+  }
+  .ordre3 {
+    order: 2;
+  }
+  .ordre4 {
+    order: 3;
+  }
+  .ordre5 {
+    order: 1;
+  }
+  .ordre6 {
+    order: 4;
+  }
 }
 
 /********** Activité à Marseilles ***********/
