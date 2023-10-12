@@ -10,7 +10,7 @@
 }
 * {
   font-family: "Raleway", "Sans serif";
-  /* box-sizing: border-box; */
+  
 }
 a {
   color: black;
@@ -161,13 +161,13 @@ header {
 }
 
 /* hero header */
-/* hero_header section  desktop */
+/* hero_header desktop */
 .hero_header {
   display: flex;
   flex-direction: column;
   gap: 2.1875rem;
 }
-/* hero_header section for smartphone */
+/* hero_header smartphone */
 @media (max-width: 768px) {
   .hero_header {
     padding: 0 1.25rem;
@@ -286,7 +286,7 @@ header {
   }
 }
 
-/* Search filters for desktop*/
+ /* hero_header-filtres  desktop*/ 
 .hero_header-filtres {
   display: flex;
   align-items: center;
@@ -333,7 +333,7 @@ header {
   justify-content: center;
   align-items: center;
 }
-/* Search filters for tablet */
+/* hero_header-filtres tablet */
 @media (max-width: 1024px) {
   .hero_header-filtres {
     flex-direction: column;
@@ -348,7 +348,7 @@ header {
     font-size: 1rem;
   }
 }
-/* Search form for smartphone */
+/* hero_header-filtres smartphone */
 @media (max-width: 768px) {
   .hero_header-filtres {
     display: flex;
@@ -672,7 +672,7 @@ header {
 
 /********** Activité à Marseilles ***********/
 
-/* Activities desktop */
+/* Activités desktop */
 .activités {
   display: flex;
   flex-direction: column;
