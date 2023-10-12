@@ -6,6 +6,7 @@
   --main-bg-color: #f2f2f2;
   --filter-bg-color: #deebff;
   --background-color: #d9d9d9;
+  
 }
 * {
   font-family: "Raleway", "Sans serif";
@@ -22,13 +23,12 @@ h1 {
   line-height: normal;
 }
 h2 {
-  font-size: 1.375rem;
+  font-size: 1.125rem;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
 }
 h3 {
-  font-size: 1rem;
   font-size: 1rem;
   font-style: normal;
   font-weight: 700;
@@ -116,7 +116,7 @@ header {
   padding: 0.875rem 0 0 0;
 }
 .header-nav-link:hover {
-  color: var(--blue);
+  color: var(--main-color);
   border-top: 0.125rem solid var(--main-color);
 }
 /* Header  tablette */
@@ -209,6 +209,7 @@ header {
 }
 .localisation-icon {
   margin: 1.125rem 1.1875rem;
+  color: black;
 }
 .localisation-input {
   width: 12.3125rem;
@@ -219,6 +220,7 @@ header {
   box-sizing: border-box;
   padding: 0.9375rem 1.5rem;
   border-right: none;
+  outline: none;
 }
 .localisation-button {
   height: 100%;
@@ -246,6 +248,10 @@ header {
 }
 /* hero_header formulaire for smartphone */
 @media (max-width: 768px) {
+  .slogan1{
+    padding-top: 1.88rem;
+  }  
+
   .hero_header-recherche {
     width: 100%;
   }
@@ -306,7 +312,7 @@ header {
   gap: 0.625rem;
 }
 .filtre:hover {
-  background-color: var(--main-color);
+  background-color: var(--filter-bg-color);
   cursor: pointer;
 }
 .filtre-text {
@@ -353,9 +359,9 @@ header {
     width: 100%;
     grid-template-columns: 1fr 1fr;
     display: grid;
-    justify-items: center;
+    gap: 1.25rem 1rem;
     padding: 0;
-    gap: 0.625rem;
+   
   }
   .filtre {
     width: 85%;
@@ -710,6 +716,7 @@ header {
   .activités-card-img {
     height: 12.5rem;
   }
+ 
 }
 /* Activités smartphone */
 @media (max-width: 768px) {
@@ -730,7 +737,7 @@ header {
 footer {
   width: 100%;
   display: flex;
-  background: var(--Grey, #f2f2f2);
+  background: var(--main-bg-color);
 }
 .footer-nav {
   width: 33%;
