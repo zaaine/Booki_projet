@@ -6,11 +6,9 @@
   --main-bg-color: #f2f2f2;
   --filter-bg-color: #deebff;
   --background-color: #d9d9d9;
-  
 }
 * {
   font-family: "Raleway", "Sans serif";
-  
 }
 a {
   color: black;
@@ -180,7 +178,7 @@ header {
   flex-direction: column;
   align-self: stretch;
   margin: 0;
-  gap: 0.5rem;
+  gap: 0.2rem;
 }
 .slogan1 {
   margin: 0;
@@ -235,8 +233,8 @@ header {
   cursor: pointer;
 }
 
-::placeholder{
-    color: black;
+::placeholder {
+  color: black;
 }
 
 .localisation-button-text {
@@ -248,9 +246,9 @@ header {
 }
 /* hero_header formulaire for smartphone */
 @media (max-width: 768px) {
-  .slogan1{
+  .slogan1 {
     padding-top: 1.88rem;
-  }  
+  }
 
   .hero_header-recherche {
     width: 100%;
@@ -258,7 +256,6 @@ header {
   .localisation-input {
     width: 100%;
     height: 100%;
-    
   }
   .localisation-button {
     width: 3.0625rem;
@@ -286,7 +283,7 @@ header {
   }
 }
 
- /* hero_header-filtres  desktop*/ 
+/* hero_header-filtres  desktop*/
 .hero_header-filtres {
   display: flex;
   align-items: center;
@@ -361,7 +358,6 @@ header {
     display: grid;
     gap: 1.25rem 1rem;
     padding: 0;
-   
   }
   .filtre {
     width: 85%;
@@ -509,13 +505,14 @@ header {
   align-items: center;
   margin: 0;
   gap: 0rem;
+}
 
-  .fa-star {
-    width: 0.8938rem;
-    height: 0.8313rem;
-    display: flex;
-    align-items: center;
-  }
+.fa-star {
+  width: 0.8938rem;
+  height: 0.8313rem;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
 }
 
 .view-more {
@@ -567,6 +564,7 @@ header {
 
 .populaires-cards .card-rating {
   margin-bottom: 5px;
+  display: flex;
 }
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
@@ -716,7 +714,6 @@ header {
   .activités-card-img {
     height: 12.5rem;
   }
- 
 }
 /* Activités smartphone */
 @media (max-width: 768px) {
