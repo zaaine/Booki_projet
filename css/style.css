@@ -304,8 +304,8 @@ header {
   display: flex;
   align-items: center;
   border: 0.125rem solid var(--background-color);
-  border-radius: 1.5625rem;
-  padding: 0.25rem 1.1875rem;
+  border-radius: 2.5625rem;
+  padding: 0.25rem 1rem;
   gap: 0.625rem;
 }
 .filtre:hover {
@@ -340,6 +340,8 @@ header {
   .filtre-container {
     gap: 0.625rem;
     padding: 0;
+    flex-wrap: nowrap;
+    
   }
   .filtre-text {
     font-size: 1rem;
