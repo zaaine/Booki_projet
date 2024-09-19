@@ -49,11 +49,6 @@ body {
   box-sizing: border-box;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
 .section-title {
   margin: 0;
   font-size: 22px;
@@ -341,7 +336,6 @@ header {
     gap: 0.625rem;
     padding: 0;
     flex-wrap: nowrap;
-    
   }
   .filtre-text {
     font-size: 1rem;
