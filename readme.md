@@ -16,19 +16,8 @@ Le site est développé en utilisant des technologies front-end comme **HTML5**,
 - Utilisation de la bibliothèque d'icônes **Font Awesome** pour enrichir l'interface utilisateur.
 - Palette de couleurs respectant la charte graphique du projet.
 
-## Aperçu du projet
-
-### Version Desktop
-
-![Aperçu Desktop](./captures/desktop.png)
-
-### Version Tablette
-
-![Aperçu Tablette](./captures/tablette.png)
-
-### Version Mobile
-
-![Aperçu Mobile](./captures/mobile.png)
+Vous pouvez consulter la maquette du projet Booki via le lien suivant :  
+[Maquette Figma - Booki](https://www.figma.com/design/B3eLowtWREc9YXzBcGRAHn/Maquettes-Booki?node-id=3-0&node-type=canvas&t=fmES6pYvfIfrSAsQ-0)
 
 ## Breakpoints
 
@@ -55,6 +44,6 @@ Pour cloner ce projet localement et le visualiser dans votre navigateur :
    git clone https://github.com/zaaine/Booki_projet.git
    ```
 
-![screenshot projet finalisé](./images/logo/Booki_screen.webp)
+![screenshot projet finalisé](./images/Booki_screen.webp)
 
 By ZAAINE AZIZ
